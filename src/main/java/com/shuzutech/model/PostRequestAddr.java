@@ -1,0 +1,26 @@
+package com.shuzutech.model;
+
+import com.shuzutech.bean.SaveAddr;
+import com.shuzutech.config.DataBaseUtil;
+import com.shuzutech.config.InterfaceNum;
+import org.apache.ibatis.session.SqlSession;
+
+import java.io.IOException;
+
+public class PostRequestAddr {
+
+    public static SaveAddr postRequestAddr(InterfaceNum num) throws IOException {
+        SqlSession session = DataBaseUtil.getSqlSession();
+        SaveAddr addr = new SaveAddr();
+        if (num == InterfaceNum.TEST){
+            addr = session.selectOne("postAddr",2);
+        }
+        if (num == InterfaceNum.PRO){
+            addr = session.selectOne("postAddr",1);
+        }
+        if (num == InterfaceNum.DEV){
+            addr = session.selectOne("postAddr",3);
+        }
+        return addr;
+    }
+}

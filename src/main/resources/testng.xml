@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="发票相关接口测试用例">
+    <test name="测试发票查询、发票补打等相关接口">
+        <groups>
+            <run>
+                <include name="查询设备状态"/>
+                <include name="发票查询"/>
+                <include name="终端查询"/>
+                <include name="企业抬头信息联想"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.shuzutech.cases.CXSBZT"/>
+            <class name="com.shuzutech.cases.FPCX"/>
+            <class name="com.shuzutech.cases.TermaryQuery"/>
+            <class name="com.shuzutech.cases.QYTTXXCX"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.shuzutech.config.ExtentTestNGIReporterListener"/>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>

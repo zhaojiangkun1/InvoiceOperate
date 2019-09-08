@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="获取appInfo">
+    <select id="getAppInfo" parameterType="Integer" resultType="com.shuzutech.bean.AppInfo">
+        select * from appInfo where id = #{id};
+    </select>
+
+    <update id="updateAppInfo" parameterType="com.shuzutech.bean.AppInfo">
+        update appInfo set updateTime = #{updateTime},accessToken = #{accessToken} where id = #{id};
+    </update>
+    <select id="postAddr" parameterType="Integer" resultType="com.shuzutech.bean.SaveAddr">
+        select * from saveaddr where id = #{id};
+    </select>
+
+</mapper>

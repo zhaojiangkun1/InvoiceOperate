@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="9" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="发票相关接口测试用例" duration-ms="2" started-at="2019-09-08T03:38:29Z" finished-at="2019-09-08T03:38:29Z">
+    <groups>
+    </groups>
+    <test name="测试发票查询、发票补打等相关接口" duration-ms="2" started-at="2019-09-08T03:38:29Z" finished-at="2019-09-08T03:38:29Z">
+    </test> <!-- 测试发票查询、发票补打等相关接口 -->
+  </suite> <!-- 发票相关接口测试用例 -->
+</testng-results>
