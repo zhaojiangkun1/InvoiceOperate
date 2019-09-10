@@ -12,7 +12,7 @@ public class TJXXCX {
 
     @Test
     public void tjxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~661826092245","026","20190901","20190905");
+        String body = body("91320191MA1ML4CL25~~005056C00001","026","20190901","20190909");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }

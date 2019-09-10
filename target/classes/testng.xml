@@ -7,12 +7,14 @@
                 <include name="查询设备状态"/>
                 <include name="发票查询"/>
                 <include name="终端查询"/>
+                <include name="企业抬头信息联想"/>
             </run>
         </groups>
         <classes>
             <class name="com.shuzutech.cases.CXSBZT"/>
             <class name="com.shuzutech.cases.FPCX"/>
             <class name="com.shuzutech.cases.TermaryQuery"/>
+            <class name="com.shuzutech.cases.QYTTXXCX"/>
         </classes>
     </test>
     <listeners>

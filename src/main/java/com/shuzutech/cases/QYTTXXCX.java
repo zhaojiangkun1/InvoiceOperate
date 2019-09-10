@@ -16,7 +16,7 @@ public class QYTTXXCX {
      */
     @Test(groups = {"企业抬头信息联想"})
     public void qyttxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("南京礼悦");
+        String body = body("上海汇付数据服务有限公司");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
 
