@@ -29,7 +29,11 @@ public class RequestInterface {
         entity.setContentEncoding("UTF-8");
         entity.setContentType("application/x-www-form-urlencoded");
         post.setEntity(entity);
-        post.setHeader("Date",date.toString());
+        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST){
+            post.setHeader("Date",date.toString());
+        }else {
+            post.setHeader("SDate",date.toString());
+        }
         post.setHeader("APPID",GetAppInfo.getAppInfo(num).getAppId());
         post.setHeader("Content-MD5",contendMd5);
         HttpResponse response = client.execute(post);
@@ -37,8 +41,11 @@ public class RequestInterface {
         System.out.println(result);
         String leftTag = "<returncode>";
         String rightTag = "</returncode>";
-        String code = result.substring(result.indexOf(leftTag)+leftTag.length(),result.indexOf(rightTag));
-        int returncode = Integer.valueOf(code);
+        int returncode = 0;
+        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST){
+            String code = result.substring(result.indexOf(leftTag)+leftTag.length(),result.indexOf(rightTag));
+            returncode = Integer.valueOf(code);
+        }
         return returncode;
     }
 }

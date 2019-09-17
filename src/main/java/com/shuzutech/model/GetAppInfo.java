@@ -20,10 +20,10 @@ public class GetAppInfo {
         if (num == InterfaceNum.TEST) {
             appInfo = session.selectOne("getAppInfo", 2);
         }
-        if (num == InterfaceNum.PRO){
+        if (num == InterfaceNum.PRO || num == InterfaceNum.PRINTPRO || num == InterfaceNum.PRINTQDPRO){
             appInfo = session.selectOne("getAppInfo",1);
         }
-        if (num == InterfaceNum.DEV){
+        if (num == InterfaceNum.DEV || num == InterfaceNum.PRINTDEV || num == InterfaceNum.PRINTQDDEV){
             appInfo = session.selectOne("getAppInfo",3);
         }
         return appInfo;

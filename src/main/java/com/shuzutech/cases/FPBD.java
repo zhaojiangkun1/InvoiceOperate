@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 public class FPBD {
     /**
      * 对于税控盒子和卷票打印机，客户可以调用该接口进行发票的打印，不支持电子票的打印。打印返回成功后，调用发票打印查询接口获取打印结果。
-     * 税控服务器不支持
+     * 税控服务器不调这个接口
      * 税控盒子连接平推打印机
      * @throws IOException
      * @throws NoSuchAlgorithmException
@@ -19,7 +19,7 @@ public class FPBD {
 
     @Test
     public void fpbd() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~005056C00001","004","3200191130","44738262");
+        String body = body("91320191MA1ML4CL25~~661826092245","007","032001800304","24283394");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }

@@ -2,6 +2,6 @@ package com.shuzutech.config;
 
 public enum InterfaceNum {
 
-    TEST,DEV,PRO
+    TEST,DEV,PRO,PRINTDEV,PRINTPRO,PRINTQDDEV,PRINTQDPRO
 
 }

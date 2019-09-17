@@ -18,9 +18,9 @@ public class FPZF {
 
     @Test
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("56482902","91320191MA1ML4CL25~~661826092245",
-                            "007","1","16579.72",
-                                "050000000002","管理员");
+        String body = body("49878371","91320191MA1ML4CL25~~661826092245",
+                            "007","1","-618.58",
+                                "032001900104","管理员");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }

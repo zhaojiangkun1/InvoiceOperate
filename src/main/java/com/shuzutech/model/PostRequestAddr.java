@@ -21,6 +21,12 @@ public class PostRequestAddr {
         if (num == InterfaceNum.DEV){
             addr = session.selectOne("postAddr",3);
         }
+        if (num == InterfaceNum.PRINTDEV||num == InterfaceNum.PRINTPRO){
+            addr = session.selectOne("postAddr",4);
+        }
+        if (num == InterfaceNum.PRINTQDDEV||num == InterfaceNum.PRINTQDPRO){
+            addr = session.selectOne("postAddr",5);
+        }
         return addr;
     }
 }
