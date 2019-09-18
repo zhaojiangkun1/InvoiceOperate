@@ -26,7 +26,7 @@ public class FPDYDATA {
 
 
     public String body(String fpqqlsh,String fpdm,String fphm,String qdbz){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPDYDATA\"><body><input><fpqqlsh>"+fpqqlsh+"</fpqqlsh><fpdm>"+fpdm+"</fpdm><fphm>"+fphm+"</fphm><qdbz>"+qdbz+"</qdbz><left>25</left><top>40</top></input></body></business>";
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPDYDATA\"><body><input><fpqqlsh>"+fpqqlsh+"</fpqqlsh><fpdm>"+fpdm+"</fpdm><fphm>"+fphm+"</fphm><qdbz>"+qdbz+"</qdbz><left>2</left><top>4</top></input></body></business>";
         return body;
     }
 }

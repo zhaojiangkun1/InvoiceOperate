@@ -40,7 +40,7 @@ public class FPCX {
 
     @Test(groups = {"发票查询"})
     public void fpcx1() throws IOException, NoSuchAlgorithmException {
-        String body = requestBody("91320191MA1ML4CL25~~661826092245","","007",0,"03200190010449878371");
+        String body = requestBody("91320191MA1ML4CL25~~661826092245","","004",0,"320019113044738269");
         int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }
