@@ -12,15 +12,31 @@ public class FPDYDATA {
 
     /**
      *
+     * 清单打印和普通打印地址不一样
      * 这是宁波的打印接口，税控服务器调此打印接口
      * fpqqlsh，在fpdm和fphm为空时必传
+     *
+     * 清单打印 带上qdprint
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
     @Test
     public void printqddata() throws IOException, NoSuchAlgorithmException {
-        String body = body("","032001900104","49878371","0");
+        String body = body("","3200191130","44738271","0");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTPRO);
+        Assert.assertEquals(code,0);
+    }
+
+    /**
+     * 带清单打印
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+
+    @Test
+    public void qdprintdata() throws IOException, NoSuchAlgorithmException {
+        String body = body("70720190918153425","","","1");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTQDDEV);
         Assert.assertEquals(code,0);
     }
 

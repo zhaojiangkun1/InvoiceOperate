@@ -17,6 +17,7 @@ public class GetAccessToken {
         String appId = GetAppInfo.getAppInfo(num).getAppId();
         String appSecret = GetAppInfo.getAppInfo(num).getAppSecret();
         String address = GetAppInfo.getAppInfo(num).getAddress();
+        System.out.println("获取token的appid:"+appId+",appSecret:"+appSecret);
         String url = address + "?&appId="+appId+"&appSecret="+appSecret;
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet(url);

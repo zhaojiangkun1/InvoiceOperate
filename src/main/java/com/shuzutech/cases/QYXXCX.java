@@ -11,13 +11,20 @@ import java.security.NoSuchAlgorithmException;
 public class QYXXCX {
     /**
      * 用于查询开票企业
+     * 91320191MA1ML4CL25~~661826092245
+     * 110101201707010037~~499000152093
+     * 上海市罗山路88268100
+     * 中国银行78884567866464
+     * 110101201707010037~~A10016420000196
+     * 南京市雨花台区软件大道168号润和创智中心3栋309室18061495423
+     * 南京市工商银行3201000323459889
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
 
     @Test
     public void qyxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~661826092245");
+        String body = body("110101201707010037~~A10016420000196");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }

@@ -31,7 +31,7 @@ public class GetAppInfo {
 
     @Test
     public void test() throws IOException, ParseException {
-        AppInfo appInfo = getAppInfo(InterfaceNum.TEST);
+        AppInfo appInfo = getAppInfo(InterfaceNum.PRINTPRO);
         System.out.println("appid:"+appInfo.getAppId());
         System.out.println("appSecrest:"+appInfo.getAccessToken());
         System.out.println("updateTime:"+appInfo.getUpdateTime());
@@ -40,7 +40,7 @@ public class GetAppInfo {
         Date date = simpleDateFormat.parse(simpleDateFormat.format(new Date()));
         System.out.println("当前时间为："+ date);
         System.out.println("当前时间为："+ new Date().toString());
-        System.out.println("更新后的accessToken："+ GetAccessToken.getToken(InterfaceNum.TEST));
+        System.out.println("更新后的accessToken："+ GetAccessToken.getToken(InterfaceNum.PRINTPRO));
         System.out.println("accessToken:"+appInfo.getAccessToken());
     }
 

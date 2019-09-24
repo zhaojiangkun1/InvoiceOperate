@@ -34,6 +34,7 @@ public class RequestInterface {
         }else {
             post.setHeader("SDate",date.toString());
         }
+        System.out.println("本次请求的APPID："+GetAppInfo.getAppInfo(num).getAppId());
         post.setHeader("APPID",GetAppInfo.getAppInfo(num).getAppId());
         post.setHeader("Content-MD5",contendMd5);
         HttpResponse response = client.execute(post);

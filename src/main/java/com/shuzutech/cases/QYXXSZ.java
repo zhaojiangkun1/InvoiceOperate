@@ -11,8 +11,8 @@ import java.security.NoSuchAlgorithmException;
 public class QYXXSZ {
     @Test
     public void qyxxsz() throws IOException, NoSuchAlgorithmException {
-        String body = body("","","","","");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
+        String body = body("110101201707010037~~A10016420000196","南京市雨花台区软件大道168号润和创智中心3栋309室","18061495423","南京市工商银行","3201000323459889");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }
 
