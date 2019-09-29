@@ -14,7 +14,7 @@ public class TermaryQuery {
     public void termaryQuery() throws IOException, NoSuchAlgorithmException {
         String nsrsbh = "91320191MA1ML4CL25";
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"TERMINALMANAGE\"><body><input><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
-        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }
 }

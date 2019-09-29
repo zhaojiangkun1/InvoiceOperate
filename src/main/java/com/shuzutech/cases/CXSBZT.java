@@ -16,6 +16,7 @@ public class CXSBZT {
      * @throws NoSuchAlgorithmException
      * 91320191MA1ML4CL25~~661826092245
      * 91320191MA1ML4CL25~~91320191MA1ML4CL25
+     * 110101201601010075~~A20017260026921
      */
 
     @Test(groups = {"查询设备状态"})

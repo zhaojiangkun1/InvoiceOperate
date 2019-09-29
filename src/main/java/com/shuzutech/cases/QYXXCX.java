@@ -11,6 +11,7 @@ import java.security.NoSuchAlgorithmException;
 public class QYXXCX {
     /**
      * 用于查询开票企业
+     * 110101201601010075~~A20017260026921
      * 91320191MA1ML4CL25~~661826092245
      * 110101201707010037~~499000152093
      * 上海市罗山路88268100
@@ -24,7 +25,7 @@ public class QYXXCX {
 
     @Test
     public void qyxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707010037~~A10016420000196");
+        String body = body("110101201601010075~~A20017260026921");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }

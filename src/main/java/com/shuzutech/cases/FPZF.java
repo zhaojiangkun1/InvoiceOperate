@@ -23,8 +23,8 @@ public class FPZF {
 
     @Test
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("49878372","91320191MA1ML4CL25~~661826092245",
-                            "007","1","",
+        String body = body("49878373","91320191MA1ML4CL25~~661826092245",
+                            "007","1","-618.58",
                                 "032001900104","管理员");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
@@ -32,15 +32,15 @@ public class FPZF {
 
     /**
      * 空白发票作废，专票空白发票作废可以
-     * <?xml version="1.0" encoding="utf-8"?><business id="FPZF"><body><returncode>99</returncode><returnmsg>发票作废失败， 注册码长度错误</returnmsg></body></business>
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
 
     @Test
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
-        String body = body1("44738271","91320191MA1ML4CL25~~661826092245",
-                "004","0","3200191130",
+        String body = body1("49878372","91320191MA1ML4CL25~~661826092245",
+                "007","0","032001900104",
                 "管理员");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);

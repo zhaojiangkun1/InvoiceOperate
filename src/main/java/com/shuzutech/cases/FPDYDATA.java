@@ -22,7 +22,7 @@ public class FPDYDATA {
      */
     @Test
     public void printqddata() throws IOException, NoSuchAlgorithmException {
-        String body = body("","3200191130","44738271","0");
+        String body = body("","032001900104","49878372","0");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTPRO);
         Assert.assertEquals(code,0);
     }

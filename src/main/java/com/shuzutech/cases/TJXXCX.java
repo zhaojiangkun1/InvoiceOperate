@@ -60,8 +60,8 @@ public class TJXXCX {
 
     @Test
     public void tjxxcx4() throws IOException, NoSuchAlgorithmException {
-        String body = body(jsbh,"004","20190901","20190919");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body(jsbh,"004","20190901","20190926");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
         Assert.assertEquals(code,0);
     }
 
