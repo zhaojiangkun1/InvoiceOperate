@@ -8,6 +8,10 @@
                 <include name="发票查询"/>
                 <include name="终端查询"/>
                 <include name="企业抬头信息联想"/>
+                <include name="统计信息查询"/>
+                <include name="企业信息查询"/>
+                <include name="当前发票信息"/>
+                <include name="智能获取税收编码"/>
             </run>
         </groups>
         <classes>
@@ -15,6 +19,10 @@
             <class name="com.shuzutech.cases.FPCX"/>
             <class name="com.shuzutech.cases.TermaryQuery"/>
             <class name="com.shuzutech.cases.QYTTXXCX"/>
+            <class name="com.shuzutech.cases.TJXXCX"/>
+            <class name="com.shuzutech.cases.QYXXCX"/>
+            <class name="com.shuzutech.cases.AICODE"/>
+            <class name="com.shuzutech.cases.DQFPXX"/>
         </classes>
     </test>
     <listeners>

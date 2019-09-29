@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -20,7 +21,7 @@ public class GETSPLIST {
     @Test(groups = {"获取商品列表"})
     public void getSpList() throws IOException, NoSuchAlgorithmException {
         String body = body("91320191MA1ML4CL25","91320191MA1ML4CL25~~661826092245","1");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 

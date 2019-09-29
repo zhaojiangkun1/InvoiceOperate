@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -23,12 +24,38 @@ public class QYXXCX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test
+    @Test(groups = {"企业信息查询"})
     public void qyxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201601010075~~A20017260026921");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        String body = body("110101201707010057~~499000152456");
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
+
+    /**
+     * 机身编号不存在
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+
+    @Test(groups = {"企业信息查询"})
+    public void qyxxcx1() throws IOException, NoSuchAlgorithmException {
+        String body = body("110101201707010057~~499000152009");
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
+        Assert.assertEquals(code,300002);
+    }
+
+    /**
+     * 税号不存在
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+    @Test(groups = {"企业信息查询"})
+    public void qyxxcx2() throws IOException, NoSuchAlgorithmException {
+        String body = body("110101201707011157~~499000152456");
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
+        Assert.assertEquals(code,1000009);
+    }
+
 
     public String body(String jsbh){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"QYXXCX\"><body><input><jsbh>"+jsbh+"</jsbh></input></body></business>";

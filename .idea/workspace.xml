@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb7b4d18-6739-4fca-b909-6f5d292708ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/AICODE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/AICODE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/CXSBZT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/CXSBZT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DQFPXX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DQFPXX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPCX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYDATA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYDATA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPZF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPZF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TJXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TJXXCX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TermaryQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TermaryQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,60 +32,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="33" selection-start-line="9" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/bean/AppInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPBD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -94,29 +40,98 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+            <state relative-caret-position="256">
+              <caret line="68" column="77" selection-start-line="68" selection-start-column="77" selection-end-line="68" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZNDY.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="19">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="228">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#printqddata#0;class#FPDYDATA#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPTTBQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-129">
+              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+              <folding>
+                <element signature="docComment;method#fpzf#0;class#FPZF#0" />
+                <element signature="method#body#0;class#FPZF#0" />
+                <element signature="method#body1#0;class#FPZF#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+              <folding>
+                <element signature="docComment;method#qyxxcx#0;class#QYXXCX#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -146,9 +161,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SQLMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/config/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZNDY.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/PRINTQDDATA.java" />
@@ -165,16 +177,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/model/GetAccessToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/model/GetAppInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" />
       </list>
     </option>
   </component>
@@ -272,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569723307043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569746247349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,44 +311,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AICODE.aicode2">
-    <configuration name="AICODE.aicode1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.AICODE" />
-      <option name="METHOD_NAME" value="aicode1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AICODE.aicode2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.AICODE" />
-      <option name="METHOD_NAME" value="aicode2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CXSBZT.cxsbzt" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/IdeaProjects/InvoiceOperter/src/main/resources/testng.xml">
+    <configuration name="CXSBZT.cxsbzt1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -342,7 +322,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
       <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.CXSBZT" />
-      <option name="METHOD_NAME" value="cxsbzt" />
+      <option name="METHOD_NAME" value="cxsbzt1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -350,7 +330,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FPZF.fpzf" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CXSBZT.cxsbzt2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -359,8 +339,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.FPZF" />
-      <option name="METHOD_NAME" value="fpzf" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.CXSBZT" />
+      <option name="METHOD_NAME" value="cxsbzt2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -368,7 +348,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TJXXCX.tjxxcx" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/IdeaProjects/InvoiceOperter/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QYXXCX.qyxxcx1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -377,8 +367,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.TJXXCX" />
-      <option name="METHOD_NAME" value="tjxxcx" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.QYXXCX" />
+      <option name="METHOD_NAME" value="qyxxcx1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QYXXCX.qyxxcx2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzutech.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.QYXXCX" />
+      <option name="METHOD_NAME" value="qyxxcx2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -387,19 +395,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CXSBZT.cxsbzt" />
-      <item itemvalue="TestNG.TJXXCX.tjxxcx" />
-      <item itemvalue="TestNG.FPZF.fpzf" />
-      <item itemvalue="TestNG.AICODE.aicode1" />
-      <item itemvalue="TestNG.AICODE.aicode2" />
+      <item itemvalue="TestNG.QYXXCX.qyxxcx1" />
+      <item itemvalue="TestNG.QYXXCX.qyxxcx2" />
+      <item itemvalue="TestNG.CXSBZT.cxsbzt1" />
+      <item itemvalue="TestNG.CXSBZT.cxsbzt2" />
+      <item itemvalue="TestNG.D:/IdeaProjects/InvoiceOperter/src/main/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AICODE.aicode2" />
-        <item itemvalue="TestNG.AICODE.aicode1" />
-        <item itemvalue="TestNG.FPZF.fpzf" />
-        <item itemvalue="TestNG.TJXXCX.tjxxcx" />
-        <item itemvalue="TestNG.CXSBZT.cxsbzt" />
+        <item itemvalue="TestNG.D:/IdeaProjects/InvoiceOperter/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.CXSBZT.cxsbzt2" />
+        <item itemvalue="TestNG.CXSBZT.cxsbzt1" />
+        <item itemvalue="TestNG.QYXXCX.qyxxcx2" />
+        <item itemvalue="TestNG.QYXXCX.qyxxcx1" />
       </list>
     </recent_temporary>
   </component>
@@ -440,44 +448,44 @@
       <workItem from="1569462122229" duration="7637000" />
       <workItem from="1569492744562" duration="1063000" />
       <workItem from="1569548500076" duration="8425000" />
-      <workItem from="1569720796030" duration="1550000" />
+      <workItem from="1569720796030" duration="8311000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DQFPXX_dqfpxx3 - 2019.09.27 at 16h 19m 42s.xml">
-      <configuration name="DQFPXX.dqfpxx3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DQFPXX_dqfpxx - 2019.09.27 at 16h 24m 06s.xml">
-      <configuration name="DQFPXX.dqfpxx" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GPXXCX_gpxxcx - 2019.09.27 at 16h 30m 14s.xml">
-      <configuration name="GPXXCX.gpxxcx" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FPDYDATA_printqddata - 2019.09.27 at 16h 40m 41s.xml">
-      <configuration name="FPDYDATA.printqddata" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CXSBZT_cxsbzt - 2019.09.27 at 16h 45m 41s.xml">
+    <history-entry file="CXSBZT_cxsbzt - 2019.09.29 at 10h 30m 26s.xml">
       <configuration name="CXSBZT.cxsbzt" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TJXXCX_tjxxcx - 2019.09.27 at 16h 49m 22s.xml">
-      <configuration name="TJXXCX.tjxxcx" configurationId="TestNG" />
+    <history-entry file="CXSBZT_cxsbzt - 2019.09.29 at 14h 50m 50s.xml">
+      <configuration name="CXSBZT.cxsbzt" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FPZF_fpzf - 2019.09.27 at 16h 51m 35s.xml">
-      <configuration name="FPZF.fpzf" configurationId="TestNG" />
+    <history-entry file="DQFPXX_dqfpxx4 - 2019.09.29 at 15h 37m 55s.xml">
+      <configuration name="DQFPXX.dqfpxx4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AICODE_aicode1 - 2019.09.29 at 09h 37m 30s.xml">
-      <configuration name="AICODE.aicode1" configurationId="TestNG" />
+    <history-entry file="DQFPXX_dqfpxx - 2019.09.29 at 15h 38m 23s.xml">
+      <configuration name="DQFPXX.dqfpxx" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AICODE_aicode1 - 2019.09.29 at 09h 39m 49s.xml">
-      <configuration name="AICODE.aicode1" configurationId="TestNG" />
+    <history-entry file="DQFPXX - 2019.09.29 at 15h 38m 42s.xml">
+      <configuration name="DQFPXX" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AICODE_aicode2 - 2019.09.29 at 09h 45m 33s.xml">
-      <configuration name="AICODE.aicode2" configurationId="TestNG" />
+    <history-entry file="QYXXCX_qyxxcx1 - 2019.09.29 at 16h 17m 53s.xml">
+      <configuration name="QYXXCX.qyxxcx1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QYXXCX_qyxxcx2 - 2019.09.29 at 16h 20m 50s.xml">
+      <configuration name="QYXXCX.qyxxcx2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CXSBZT_cxsbzt1 - 2019.09.29 at 16h 31m 19s.xml">
+      <configuration name="CXSBZT.cxsbzt1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CXSBZT_cxsbzt1 - 2019.09.29 at 16h 31m 32s.xml">
+      <configuration name="CXSBZT.cxsbzt1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CXSBZT_cxsbzt2 - 2019.09.29 at 16h 32m 13s.xml">
+      <configuration name="CXSBZT.cxsbzt2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203929000" />
+    <option name="totallyTimeSpent" value="210690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,14 +509,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28368795" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20567375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35744682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4113475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42411348" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37304965" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.36260623" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -631,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/model/UpdateAppInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -673,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPTTBQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/config/DataBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -691,48 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2204">
           <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -750,20 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -778,24 +716,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="741">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="314">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="docComment;method#cxsbzt#0;class#CXSBZT#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="47">
+          <caret line="64" column="77" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -808,8 +770,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="68" column="77" selection-start-line="68" selection-start-column="77" selection-end-line="68" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#printqddata#0;class#FPDYDATA#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPTTBQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;method#fpzf#0;class#FPZF#0" />
+            <element signature="method#body#0;class#FPZF#0" />
+            <element signature="method#body1#0;class#FPZF#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GETSPLIST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+          <folding>
+            <element signature="docComment;method#qyxxcx#0;class#QYXXCX#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
         </state>
       </provider>
     </entry>

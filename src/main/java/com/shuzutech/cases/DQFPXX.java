@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -10,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class DQFPXX {
 
-    private String jsbh = "91320191MA1ML4CL25~~661826092245";
+    private String jsbh = "110101201707010057~~499000152456";
 
     /**
      * 智能设备：发票请求流水号：32位；税控服务器是20位
@@ -21,10 +22,10 @@ public class DQFPXX {
      * @throws NoSuchAlgorithmException
      * 查询电子票
      */
-    @Test(groups = {"当前未开票号码查询"})
+    @Test(groups = {"当前发票信息"})
     public void dqfpxx() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"026");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -33,10 +34,10 @@ public class DQFPXX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"当前未开票号码查询"})
+    @Test(groups = {"当前发票信息"})
     public void dqfpxx2() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"025");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -45,10 +46,10 @@ public class DQFPXX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"当前未开票号码查询"})
+    @Test(groups = {"当前发票信息"})
     public void dqfpxx3() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"007");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -58,10 +59,10 @@ public class DQFPXX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test(groups = {"当前未开票号码查询"})
+    @Test(groups = {"当前发票信息"})
     public void dqfpxx4() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"004");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 

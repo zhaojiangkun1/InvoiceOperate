@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -9,6 +10,7 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
 public class AICODE {
+    InterfaceNum num = TestEnvironment.num;
     /**
      * 用于智能获取税收编码  name是需要联想的字段，必填
      * @throws IOException
@@ -18,7 +20,7 @@ public class AICODE {
     @Test(groups = {"智能获取税收编码"})
     public void aicode() throws IOException, NoSuchAlgorithmException {
         String body = body("毛毯");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
 
@@ -30,7 +32,7 @@ public class AICODE {
     @Test(groups = {"智能获取税收编码"})
     public void aicode1() throws IOException, NoSuchAlgorithmException {
         String body = body("");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,10001);
     }
 
@@ -42,7 +44,7 @@ public class AICODE {
     @Test(groups = {"智能获取税收编码"})
     public void aicode2() throws IOException, NoSuchAlgorithmException {
         String body = body("**%$#@=");
-        RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        RequestInterface.requestInteface(body,num);
     }
 
     public String body(String name){

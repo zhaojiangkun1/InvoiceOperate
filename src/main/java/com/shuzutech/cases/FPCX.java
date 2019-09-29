@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -28,7 +29,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("","91320191MA1ML4CL25","007",1,"37920190927161414");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -41,7 +42,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx1() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("91320191MA1ML4CL25~~661826092245","","007",0,"03200190010449878372");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -53,7 +54,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx2() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("91320191MA1ML4CL25~~661826092245","91320191MA1ML4CL25","007",1,"29820190911112726");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -65,7 +66,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx3() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("91320191MA1ML4CL25~~661826092245","","004",0,"320019113044738271");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -77,7 +78,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx4() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("","91320191MA1ML4CL25","026",0,"03200170031115437602");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -90,7 +91,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx5() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("","","026",1,"28820190906110002");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,10001);
     }
 
@@ -104,7 +105,7 @@ public class FPCX {
     @Test(groups = {"发票查询"})
     public void fpcx6() throws IOException, NoSuchAlgorithmException {
         String body = requestBody("91320191MA1ML4CL35~~12345623423","","026",1,"28820190906110002");
-        int code = RequestInterface.requestInteface(body,InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,1000009);
     }
 

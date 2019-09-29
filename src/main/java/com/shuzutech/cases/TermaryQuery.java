@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -14,7 +15,7 @@ public class TermaryQuery {
     public void termaryQuery() throws IOException, NoSuchAlgorithmException {
         String nsrsbh = "91320191MA1ML4CL25";
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"TERMINALMANAGE\"><body><input><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 }
