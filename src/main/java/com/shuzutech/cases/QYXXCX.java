@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
 import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
