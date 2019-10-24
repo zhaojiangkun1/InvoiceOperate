@@ -16,7 +16,7 @@ public class CXSBZT {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      * 91320191MA1ML4CL25~~661826092245  主盘
-     * 91320191MA1ML4CL25~~661921253673  分盘
+     * 91320191MA1ML4CL25~~661921253676  分盘
      * 91320191MA1ML4CL25~~91320191MA1ML4CL25
      * 110101201601010075~~A20017260026921
      * 110101201707010057~~499000152456
@@ -24,7 +24,7 @@ public class CXSBZT {
 
     @Test(groups = {"查询设备状态"})
     public void cxsbzt() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707010057~~499000152456");
+        String body = body("91320191MA1ML4CL25~~661921253676");
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }

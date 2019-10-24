@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
 import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,9 +25,9 @@ public class FPCX {
      */
 
 
-    @Test(groups = {"发票查询"})
+    @Test(groups = {"发票查询"},description = "根据纳税人识别号查询")
     public void fpcx() throws IOException, NoSuchAlgorithmException {
-        String body = requestBody("","91320191MA1ML4CL25","007",1,"37920190927161414");
+        String body = requestBody("","110101201707010057","026",1,"0");
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }

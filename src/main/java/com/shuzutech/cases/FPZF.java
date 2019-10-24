@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -26,7 +27,7 @@ public class FPZF {
         String body = body("49878373","91320191MA1ML4CL25~~661826092245",
                             "007","1","-618.58",
                                 "032001900104","管理员");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
@@ -41,8 +42,8 @@ public class FPZF {
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
         String body = body1("49878372","91320191MA1ML4CL25~~661826092245",
                 "007","0","032001900104",
-                "管理员");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+                "蔡纪跃");
+        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 

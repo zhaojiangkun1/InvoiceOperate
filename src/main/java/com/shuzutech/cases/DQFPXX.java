@@ -18,6 +18,7 @@ public class DQFPXX {
      *110101201601010075~~A20017260026921
      * 110101201707010057~~499000152456
      * 91320191MA1ML4CL25~~661826092245  需要去盘里读取数据，盘不在，读取不了数据。
+     * 91320191MA1ML4CL25~~661921253676
      * @throws IOException
      * @throws NoSuchAlgorithmException
      * 查询电子票

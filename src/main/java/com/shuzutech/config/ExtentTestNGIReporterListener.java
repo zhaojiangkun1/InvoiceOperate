@@ -157,7 +157,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
                         name= name.substring(0,49)+"...";
                     }
                 }else{
-                    name = result.getMethod().getMethodName();
+//                    name = result.getMethod().getMethodName();
+                    name = result.getMethod().getDescription();
                 }
                 if(extenttest==null){
                     test = extent.createTest(name);
