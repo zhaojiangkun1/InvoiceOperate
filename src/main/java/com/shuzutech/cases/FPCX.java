@@ -27,7 +27,7 @@ public class FPCX {
 
     @Test(groups = {"发票查询"},description = "根据纳税人识别号查询")
     public void fpcx() throws IOException, NoSuchAlgorithmException {
-        String body = requestBody("","110101201707010057","026",1,"0");
+        String body = requestBody("","110101201601010075","026",1,"TB10020200115175352");
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }

@@ -2,6 +2,7 @@ package com.shuzutech.cases;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
+import com.shuzutech.model.SsbmRequest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -18,8 +19,8 @@ public class SSBMQQ {
 
     @Test
     public void ssbmqq() throws IOException, NoSuchAlgorithmException {
-        String body = body("");
-        RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body("32.0");
+        System.out.println(SsbmRequest.requestInteface(body,InterfaceNum.PRO));
     }
 
     public String body(String bbh){

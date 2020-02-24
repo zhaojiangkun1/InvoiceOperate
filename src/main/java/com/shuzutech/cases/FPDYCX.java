@@ -18,7 +18,7 @@ public class FPDYCX {
     @Test
     public void fpdycx() throws IOException, NoSuchAlgorithmException {
         String body = body("","","");
-        RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 
     public String body(String shnsrsbh,String jsbh,String cxtj){

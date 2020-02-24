@@ -26,6 +26,9 @@ public class GetAppInfo {
         if (num == InterfaceNum.DEV || num == InterfaceNum.PRINTDEV || num == InterfaceNum.PRINTQDDEV){
             appInfo = session.selectOne("getAppInfo",3);
         }
+        if (num == InterfaceNum.DEV1){
+            appInfo = session.selectOne("getAppInfo",6);
+        }
         return appInfo;
     }
 

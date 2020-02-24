@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
 import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
-public class GETSPLIST {
+public class SPBM {
 
     /**
      * 1:按照税号维护 非必填
@@ -20,7 +19,7 @@ public class GETSPLIST {
 
     @Test(groups = {"获取商品列表"})
     public void getSpList() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25","91320191MA1ML4CL25~~661826092245","1");
+        String body = body("110101201707010057","","1");
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }

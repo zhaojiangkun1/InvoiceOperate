@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
 import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,43 +18,20 @@ public class CXSBZT {
      * 91320191MA1ML4CL25~~661921253676  分盘
      * 91320191MA1ML4CL25~~91320191MA1ML4CL25
      * 110101201601010075~~A20017260026921
-     * 110101201707010057~~499000152456
+     * 110101201707010057~~499000152456  增加了nsrsbh
      */
+    private static String jsbh = "91320191MA1ML4CL25~~661921253676";
+    private static String nsrsbh = "";
 
     @Test(groups = {"查询设备状态"})
     public void cxsbzt() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~661921253676");
+        String body = body();
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
-    /**
-     * 税号不存在
-     * @throws IOException
-     * @throws NoSuchAlgorithmException
-     */
-
-    @Test(groups = {"查询设备状态"})
-    public void cxsbzt1() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707011157~~499000152456");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
-        Assert.assertEquals(code,1000009);
-    }
-
-    /**
-     * 盘号不存在
-     * @throws IOException
-     * @throws NoSuchAlgorithmException
-     */
-    @Test(groups = {"查询设备状态"})
-    public void cxsbzt2() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707010057~~499000662456");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
-        Assert.assertEquals(code,300002);
-    }
-
-    public String body(String jsbh){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"CXSBZT\"><body><input><jsbh>"+jsbh+"</jsbh></input></body></business>";
+    public String body(){
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"CXSBZT\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
         return body;
     }
 }

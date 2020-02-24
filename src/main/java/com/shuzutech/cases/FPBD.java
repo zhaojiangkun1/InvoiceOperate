@@ -17,16 +17,18 @@ public class FPBD {
      * @throws NoSuchAlgorithmException
      */
 
+    private static String nsrsbh = "110101201707010037";
+
     @Test
     public void fpbd() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~661826092245","007","032001800304","24283394");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        String body = body("","025","150001201509","30170951");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
         Assert.assertEquals(code,0);
     }
 
     public String body(String jsbh,String fplxdm,String fpdm,String fphm){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPBD\"><body><input><jsbh>"+jsbh+
-                "</jsbh><fplxdm>"+fplxdm+"</fplxdm><fpdm>"+fpdm+"</fpdm><fphm>"+fphm+"</fphm></input></body></business>";
+                "</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+fplxdm+"</fplxdm><fpdm>"+fpdm+"</fpdm><fphm>"+fphm+"</fphm></input></body></business>";
         return body;
     }
 }

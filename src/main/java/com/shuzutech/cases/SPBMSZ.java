@@ -27,8 +27,8 @@ public class SPBMSZ {
                 "<business id=\"SPBMSZ\">\n" +
                 "    <body>\n" +
                 "        <input>\n" +
-                "            <jsbh>110101201707010057~~499000152456</jsbh>\n" +
-                "            <nsrsbh>110101201707010057</nsrsbh>\n" +
+                "            <jsbh></jsbh>\n" +
+                "            <nsrsbh>110101201707010041</nsrsbh>\n" +
                 "            <bm></bm>\n" +
                 "            <pid>1070202010100000000</pid>\n" +
                 "            <mc>有机化学原料1</mc>\n" +

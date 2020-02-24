@@ -18,7 +18,7 @@ public class SPBMMRZ {
      */
     @Test
     public void spbmmrz() throws IOException, NoSuchAlgorithmException {
-        String body = body("107020201010000000001","110101201707010057~~499000152456","");
+        String body = body("107020201010000000001","","110101201707010057");
         int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
         Assert.assertEquals(code,0);
     }

@@ -24,6 +24,9 @@ public class UpdateAppInfo {
         if (num == InterfaceNum.TEST){
             appInfo.setId(2);
         }
+        if (num == InterfaceNum.DEV1){
+            appInfo.setId(6);
+        }
         session.update("updateAppInfo",appInfo);
         session.commit();
     }
