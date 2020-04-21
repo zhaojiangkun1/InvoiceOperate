@@ -12,7 +12,7 @@ public class PostRequestAddr {
     public static SaveAddr postRequestAddr(InterfaceNum num) throws IOException {
         SqlSession session = DataBaseUtil.getSqlSession();
         SaveAddr addr = new SaveAddr();
-        if (num == InterfaceNum.TEST){
+        if (num == InterfaceNum.TEST || num == InterfaceNum.TEST1 ){
             addr = session.selectOne("postAddr",2);
         }
         if (num == InterfaceNum.PRO){
@@ -21,10 +21,10 @@ public class PostRequestAddr {
         if (num == InterfaceNum.DEV || num == InterfaceNum.DEV1){
             addr = session.selectOne("postAddr",3);
         }
-        if (num == InterfaceNum.PRINTDEV||num == InterfaceNum.PRINTPRO){
+        if (num == InterfaceNum.PRINTDEV||num == InterfaceNum.PRINTPRO||num ==InterfaceNum.PRINTTEST){
             addr = session.selectOne("postAddr",4);
         }
-        if (num == InterfaceNum.PRINTQDDEV||num == InterfaceNum.PRINTQDPRO){
+        if (num == InterfaceNum.PRINTQDDEV||num == InterfaceNum.PRINTQDPRO||num==InterfaceNum.PRINTQDTEST){
             addr = session.selectOne("postAddr",5);
         }
         return addr;

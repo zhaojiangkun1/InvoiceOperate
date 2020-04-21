@@ -29,7 +29,7 @@ public class RequestInterface {
         entity.setContentEncoding("UTF-8");
         entity.setContentType("application/x-www-form-urlencoded");
         post.setEntity(entity);
-        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST||num == InterfaceNum.DEV1){
+        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST||num == InterfaceNum.DEV1||num==InterfaceNum.TEST1){
             post.setHeader("Date",date.toString());
         }else {
             post.setHeader("SDate",date.toString());
@@ -43,7 +43,7 @@ public class RequestInterface {
         String leftTag = "<returncode>";
         String rightTag = "</returncode>";
         int returncode = 0;
-        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST){
+        if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST||num == InterfaceNum.TEST1){
             String code = result.substring(result.indexOf(leftTag)+leftTag.length(),result.indexOf(rightTag));
             returncode = Integer.valueOf(code);
         }

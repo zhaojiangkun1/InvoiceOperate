@@ -11,8 +11,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class DQFPXX {
 
-    private String jsbh = "110101201707010064~~110101201707010064";
-    private String nsrsbh = "";
+    private String jsbh = "";
+    private String nsrsbh = "91320191MA1ML4CL25";
 
     /**
      * 智能设备：发票请求流水号：32位；税控服务器是20位

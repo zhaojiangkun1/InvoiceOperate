@@ -15,11 +15,11 @@ public class ZNDY {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "91320191MA1ML4CL25";
+    private static String nsrsbh = "110101201707010064";
 
     @Test
     public void zndy() throws IOException, NoSuchAlgorithmException {
-        String body = body("","004","92220190910110513","","");
+        String body = body("","007","","050000000102","99129846");
         RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 
@@ -27,7 +27,7 @@ public class ZNDY {
     public String body(String jsbh,String fplxdm,String fpqqlsh,String fpdm,String fphm){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"ZNDY\"><body><input><jsbh>"
                 +jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+fplxdm+"</fplxdm><fpqqlsh>"+fpqqlsh+"</fpqqlsh><fpdm>"+fpdm+"</fpdm><fphm>"
-                +fphm+"</fphm><dylx>0</dylx><dyfs>1</dyfs><printername></printername></input></body></business>";
+                +fphm+"</fphm><dylx>1</dylx><dyfs>1</dyfs><printername></printername></input></body></business>";
         return body;
     }
 }

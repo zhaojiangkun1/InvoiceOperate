@@ -10,15 +10,15 @@ import java.security.NoSuchAlgorithmException;
 
 public class QYXXSZ {
     private static String jsbh = "";
-    private static String nsrsbh = "110101201707010041";
-    private static String dz = "南京市雨花台区软件大道168号润和创智中心3栋309室";
-    private static String dh = "18061495423";
-    private static String yh = "南京市工商银行";
-    private static String zh = "3201000323459889";
+    private static String nsrsbh = "110101201707010064";
+    private static String dz = "南京市江北新区新科二路2号南大软件学院222D室";
+    private static String dh = "02558801191";
+    private static String yh = "中国农业银行股份有限公司南京茶亭东街支行";
+    private static String zh = "10107501040008319";
     @Test
     public void qyxxsz() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
         Assert.assertEquals(code,0);
     }
 

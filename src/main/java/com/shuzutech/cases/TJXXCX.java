@@ -11,8 +11,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class TJXXCX {
 
-    private String jsbh = "";
-    private static String nsrsbh = "110101201707010064";
+    private String jsbh = "91320191MA1ML4CL25~~661921253676";
+    private static String nsrsbh = "";
     private InterfaceNum num = TestEnvironment.num;
 
     /**
@@ -25,7 +25,7 @@ public class TJXXCX {
      */
     @Test(groups = {"统计信息查询"})
     public void tjxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("026","20200101","20200110");
+        String body = body("026","20100201","20200228");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }

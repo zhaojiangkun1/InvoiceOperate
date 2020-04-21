@@ -1,0 +1,39 @@
+package com.shuzutech.cases;
+
+import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.model.RequestInterface;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+
+public class YBJSZ {
+    private static String jsbh="";
+    private static String nsrsbh="110101201707010064";
+    private static String fplxdm="004";
+    private static String top = "0";//打印上边距，可正可负  整数
+    private static String left = "0";//打印左边距，可正可负  整数
+
+    @Test
+    public void ybjsz() throws IOException, NoSuchAlgorithmException {
+        int code = RequestInterface.requestInteface(body(), TestEnvironment.num);
+        Assert.assertEquals(code, 0);
+    }
+
+    private String body(){
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                "<business id=\"YBJSZ\">\n" +
+                "\t<body>\n" +
+                "\t\t<input>\n" +
+                "\t\t\t<jsbh>"+jsbh+"</jsbh>\n" +
+                "\t\t\t<nsrsbh>"+nsrsbh+"</nsrsbh>\n" +
+                "\t\t\t<fplxdm>"+fplxdm+"</fplxdm>\n" +
+                "\t\t\t<top>"+top+"</top>\n" +
+                "\t\t\t<left>"+left+"</left>\n" +
+                "\t\t</input>\n" +
+                "\t</body>\n" +
+                "</business>";
+        return body;
+    }
+}

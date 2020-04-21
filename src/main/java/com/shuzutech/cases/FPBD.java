@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -17,12 +18,12 @@ public class FPBD {
      * @throws NoSuchAlgorithmException
      */
 
-    private static String nsrsbh = "110101201707010037";
+    private static String nsrsbh = "110101201707010064";
 
     @Test
     public void fpbd() throws IOException, NoSuchAlgorithmException {
-        String body = body("","025","150001201509","30170951");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body("","004","1500031888","90129837");
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 

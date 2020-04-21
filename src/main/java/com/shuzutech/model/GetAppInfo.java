@@ -17,8 +17,11 @@ public class GetAppInfo {
     public static AppInfo getAppInfo(InterfaceNum num) throws IOException {
         SqlSession session = DataBaseUtil.getSqlSession();
         AppInfo appInfo = new AppInfo();
-        if (num == InterfaceNum.TEST) {
+        if (num == InterfaceNum.TEST || num == InterfaceNum.PRINTTEST || num == InterfaceNum.PRINTQDTEST) {
             appInfo = session.selectOne("getAppInfo", 2);
+        }
+        if (num == InterfaceNum.TEST1){
+            appInfo =session.selectOne("getAppInfo",4);
         }
         if (num == InterfaceNum.PRO || num == InterfaceNum.PRINTPRO || num == InterfaceNum.PRINTQDPRO){
             appInfo = session.selectOne("getAppInfo",1);

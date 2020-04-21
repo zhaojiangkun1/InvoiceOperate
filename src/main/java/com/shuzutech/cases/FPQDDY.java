@@ -10,6 +10,7 @@ import java.security.NoSuchAlgorithmException;
 public class FPQDDY {
 
     /**
+     * 合力平台清单也可以调用这个接口
      * 能打印成功，但是百旺获取不到打印结果，返回失败
      * <?xml version="1.0" encoding="utf-8"?><business id="FPQDDY"><body><returncode>300004</returncode><returnmsg>获取操作结果失败，请调用相应接口查询当前操作结果或稍后查询</returnmsg></body></business>
      * <p>
@@ -20,12 +21,12 @@ public class FPQDDY {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "110101201707010043";
-    private static String jsbh = "";
+    private static String nsrsbh = "110101201707010064";
+    private static String jsbh = "110101201707010064~~499000152528";
 
     @Test
     public void fpqddy() throws IOException, NoSuchAlgorithmException {
-        String body = body("007", "050000000011", "59952032");
+        String body = body("007", "050000000102", "99129836");
         RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 

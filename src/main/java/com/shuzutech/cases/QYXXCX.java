@@ -22,7 +22,7 @@ public class QYXXCX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "110101201707010041";
+    private static String nsrsbh = "110101201707010064";
     private static String jsbh = "";
 
     @Test(groups = {"企业信息查询"})

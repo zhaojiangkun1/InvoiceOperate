@@ -18,10 +18,10 @@ public class CXSBZT {
      * 91320191MA1ML4CL25~~661921253676  分盘
      * 91320191MA1ML4CL25~~91320191MA1ML4CL25
      * 110101201601010075~~A20017260026921
-     * 110101201707010057~~499000152456  增加了nsrsbh
+     * 110101201707010057~~499000152456  增加了nsrsbh   110101201707010043
      */
-    private static String jsbh = "91320191MA1ML4CL25~~661921253676";
-    private static String nsrsbh = "";
+    private static String jsbh = "";
+    private static String nsrsbh = "110101201601010075";
 
     @Test(groups = {"查询设备状态"})
     public void cxsbzt() throws IOException, NoSuchAlgorithmException {

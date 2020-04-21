@@ -21,13 +21,13 @@ public class FPZF {
      * @throws NoSuchAlgorithmException
      *
      */
-    private static String nsrsbh = "";
+    private static String nsrsbh = "110101201707010043";
 
     @Test
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("67711766","91320191MA1ML4CL25~~661826092245",
-                            "007","1","618.58",
-                                "032001900104","蔡纪跃");
+        String body = body("55503956","",
+                            "007","1","6",
+                                "050000000102","蔡纪跃");
         int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
@@ -41,7 +41,7 @@ public class FPZF {
 
     @Test
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
-        String body = body1("20192198","110101201707010057~~499000152456",
+        String body = body1("55503957","",
                 "007","0","050000000102",
                 "蔡纪跃");
         int code = RequestInterface.requestInteface(body,TestEnvironment.num);
