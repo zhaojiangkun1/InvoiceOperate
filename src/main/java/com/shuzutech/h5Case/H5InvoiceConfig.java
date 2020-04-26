@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class H5InvoiceConfig {
-    private static String UA = "Chrome";
+    private static String UA = "Phone";
     private static String shnsrsbh = "110101201707010057";
     private static String terminalKey = "";
-    private static InterfaceNum num = InterfaceNum.DEV;
+    private static InterfaceNum num = InterfaceNum.TEST;
 
     /**
      * H5配置

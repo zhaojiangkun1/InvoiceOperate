@@ -13,9 +13,9 @@ public class DZFPCF {
     /**
      * 电子发票重发接口
      */
-    String fpqqlsh = "Qq26120200417143056";
+    String fpqqlsh = "LH77620200426150535";
 
-    String sprsjh = "zhaokun@shuzutech.com";
+    String sprsjh = "13701476279";
 
     @Test
     public void dzfpcf() throws IOException, NoSuchAlgorithmException {

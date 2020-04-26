@@ -9,9 +9,9 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
 public class ZXSH {
-    private static String nsrsbh = "500102010001448"; //必填
-    private static String skph = "";//多个盘时必填
-    private static String cancelTime = "";//发票业务注销时间
+    private static String nsrsbh = "110101201707010043"; //必填
+    private static String skph = "A20016420000265";//多个盘时必填
+    private static String cancelTime = "20200524";//发票业务注销时间
 
     @Test
     public void zxsh() throws IOException, NoSuchAlgorithmException {

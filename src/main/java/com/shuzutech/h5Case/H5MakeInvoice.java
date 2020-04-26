@@ -15,7 +15,7 @@ public class H5MakeInvoice {
 
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyymmddHHMMss");
     String date = simpleDateFormat.format(new Date());
-    private static InterfaceNum num = InterfaceNum.TEST;
+    private static InterfaceNum num = InterfaceNum.PRO;
     private static String UA = "PC";
     private static String kplx = "0";
     private static String fplxdm = "026";

@@ -1,5 +1,6 @@
 package com.shuzutech.cases;
 
+import com.shuzutech.bean.TestEnvironment;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -18,7 +19,7 @@ public class QYXXSZ {
     @Test
     public void qyxxsz() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
+        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
         Assert.assertEquals(code,0);
     }
 
