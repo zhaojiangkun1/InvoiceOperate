@@ -17,17 +17,19 @@ public class FPQDDY {
      * 如果是没有清单的发票，不能调这个接口，调这个接口不会给打印机发请求
      *
      * 110101201707010043~~A20016420000265
+     * 110101201707010064
+     * 91320594MA1MECA285
      *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "110101201707010064";
-    private static String jsbh = "110101201707010064~~499000152528";
+    private static String nsrsbh = "91320594MA1MECA285";
+    private static String jsbh = "";
 
     @Test
     public void fpqddy() throws IOException, NoSuchAlgorithmException {
-        String body = body("007", "050000000102", "99129836");
-        RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body("007", "032001900104", "71891450");
+        RequestInterface.requestInteface(body, InterfaceNum.TEST);
     }
 
 

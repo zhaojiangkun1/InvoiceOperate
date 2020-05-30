@@ -17,7 +17,7 @@ public class FPTTBQ {
     @Test
     public void fpttbq() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        RequestInterface.requestInteface(body, InterfaceNum.TEST);
     }
 
     public String body(){
@@ -26,8 +26,8 @@ public class FPTTBQ {
                 "    <body>\n" +
                 "        <input>\n" +
                 "            <fpqqlsh>F100000000000009</fpqqlsh>\n" +
-                "            <ghdwsbh>987654321</ghdwsbh>\n" +
-                "            <ghdwmc>南京数族信息科技有限公司</ghdwmc>\n" +
+                "            <ghdwsbh></ghdwsbh>\n" +
+                "            <ghdwmc>南京阿有料网络科技有限公司</ghdwmc>\n" +
                 "            <ghdwdzdh></ghdwdzdh>\n" +
                 "            <ghdwyhzh></ghdwyhzh>\n" +
                 "        </input>\n" +

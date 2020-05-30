@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.annotations.Test;
 
@@ -13,7 +13,7 @@ public class JBRCX {
     @Test
     public void jbrcx() throws IOException, NoSuchAlgorithmException {
         String body = body("026","","1");
-        RequestInterface.requestInteface(body, TestEnvironment.num);
+        RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
     public String body(String fplxdm,String jsbh,String flag){

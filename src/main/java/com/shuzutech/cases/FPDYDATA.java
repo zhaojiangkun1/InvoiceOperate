@@ -11,21 +11,23 @@ import java.security.NoSuchAlgorithmException;
 public class FPDYDATA {
 
     /**
-     *
+     * 本地打印插件接口
      * 清单打印和普通打印地址不一样
      * 这是宁波的打印接口，税控服务器调此打印接口
      * fpqqlsh，在fpdm和fphm为空时必传
      *032001900104   49878372   线上的发票
+     * 20192485 ZB 20192486
+     * 01896725 NB
      * 清单打印 带上qdprint
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
     private static String top="20";//上边距
-    private static String left = "-20";//左边距
+    private static String left = "0";//左边距
 
     @Test
     public void printqddata() throws IOException, NoSuchAlgorithmException {
-        String body = body("","1500031888","90129843","0");
+        String body = body("","050000000102","20192486","0");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTPRO);
         Assert.assertEquals(code,0);
     }
@@ -38,8 +40,8 @@ public class FPDYDATA {
 
     @Test
     public void qdprintdata() throws IOException, NoSuchAlgorithmException {
-        String body = body("","032001900104","80008231","1");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTQDDEV);
+        String body = body("","050000000102","20192496","1");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTQDPRO);
         Assert.assertEquals(code,0);
     }
 

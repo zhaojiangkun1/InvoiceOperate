@@ -9,6 +9,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class FPDYCX {
     /**
+     * 110101201707010043
+     * 91320594346148467C
      * 发票打印查询接口
      * cxtj是调发票打印接口返回的打印编号
      * @throws IOException
@@ -17,8 +19,8 @@ public class FPDYCX {
 
     @Test
     public void fpdycx() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707010043","","zumk13yxqdpetletojhduv3x8hg3ssts");
-        RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body("91320594346148467C","","iq9jvx6zsdb1jwhmrvhtpswr3vgdxf9w");
+        RequestInterface.requestInteface(body, InterfaceNum.TEST);
     }
 
     public String body(String shnsrsbh,String jsbh,String cxtj){

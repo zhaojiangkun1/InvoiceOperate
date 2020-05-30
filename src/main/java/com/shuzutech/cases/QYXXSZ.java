@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class QYXXSZ {
     private static String jsbh = "";
-    private static String nsrsbh = "110101201707010064";
+    private static String nsrsbh = "91320191MA1ML4CL25";
     private static String dz = "南京市江北新区新科二路2号南大软件学院222D室";
     private static String dh = "02558801191";
     private static String yh = "中国农业银行股份有限公司南京茶亭东街支行";
@@ -19,7 +18,7 @@ public class QYXXSZ {
     @Test
     public void qyxxsz() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 

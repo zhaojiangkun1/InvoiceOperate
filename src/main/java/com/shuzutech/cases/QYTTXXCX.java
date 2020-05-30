@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -18,7 +17,7 @@ public class QYTTXXCX {
     @Test(groups = {"企业抬头信息联想"})
     public void qyttxxcx() throws IOException, NoSuchAlgorithmException {
         String body = body("上海汇付数据服务");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
 
     }

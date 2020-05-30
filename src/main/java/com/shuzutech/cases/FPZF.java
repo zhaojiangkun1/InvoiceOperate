@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,20 +14,21 @@ public class FPZF {
      *
      *110101201707010057~~499000152456
      *91320191MA1ML4CL25~~661826092245
+     * 91320594346148467C~~537100951479
      * zflx:0表示空白发票作废，1表示已开具发票作废，hjje是不含税的
      * 空白发票作废，hjje字段不传(共享2型打印机，此节点可不存在)
      * @throws IOException
      * @throws NoSuchAlgorithmException
      *
      */
-    private static String nsrsbh = "110101201707010043";
+    private static String nsrsbh = "110101201707010064";
 
     @Test
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("55503956","",
-                            "007","1","6",
-                                "050000000102","蔡纪跃");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        String body = body("99129879","",
+                            "007","1","-800",
+                                "050000000102","赵坤");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
@@ -41,10 +41,10 @@ public class FPZF {
 
     @Test
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
-        String body = body1("55503957","",
+        String body = body1("99129874","",
                 "007","0","050000000102",
                 "蔡纪跃");
-        int code = RequestInterface.requestInteface(body,TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 

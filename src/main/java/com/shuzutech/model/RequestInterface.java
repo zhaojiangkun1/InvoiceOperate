@@ -44,8 +44,15 @@ public class RequestInterface {
         String rightTag = "</returncode>";
         int returncode = 0;
         if (num == InterfaceNum.DEV||num==InterfaceNum.PRO||num==InterfaceNum.TEST||num == InterfaceNum.TEST1){
-            String code = result.substring(result.indexOf(leftTag)+leftTag.length(),result.indexOf(rightTag));
-            returncode = Integer.valueOf(code);
+            try {
+                String code = result.substring(result.indexOf(leftTag)+leftTag.length(),result.indexOf(rightTag));
+                returncode = Integer.valueOf(code);
+            }
+            catch (StringIndexOutOfBoundsException ex){
+                System.out.println("数组越界错误！");
+            }
+
+
         }
         return returncode;
     }

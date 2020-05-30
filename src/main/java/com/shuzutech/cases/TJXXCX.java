@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -11,11 +11,17 @@ import java.security.NoSuchAlgorithmException;
 
 public class TJXXCX {
 
-    private String jsbh = "91320191MA1ML4CL25~~661921253676";
-    private static String nsrsbh = "";
-    private InterfaceNum num = TestEnvironment.num;
+    private String jsbh = "";
+    private static String nsrsbh = "91320594346148467C";
+    private InterfaceNum num = BasicParameters.num;
 
     /**
+     * 110101201707010064
+     *qsrq:后期会作废掉，zzrq：要查询的当前日期
+     *Ukey: 91320594MA1MECA285~~537100950610
+     *Ukey：91320594346148467C~~537100951479
+     * 91320191MA1ML4CL25~~661921253676
+     * 110101201707010041
      * 110101201601010075~~499000153838
      *110101201707010057~~499000152456
      * 91320191MA1ML4CL25~~661826092245  统计电子票
@@ -25,7 +31,7 @@ public class TJXXCX {
      */
     @Test(groups = {"统计信息查询"})
     public void tjxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("026","20100201","20200228");
+        String body = body("026","20200301","20200420");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -38,7 +44,7 @@ public class TJXXCX {
 
     @Test(groups = {"统计信息查询"})
     public void tjxxcx2() throws IOException, NoSuchAlgorithmException {
-        String body = body("025","20200101","20200103");
+        String body = body("025","","20200103");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -51,7 +57,7 @@ public class TJXXCX {
 
     @Test(groups = {"统计信息查询"})
     public void tjxxcx3() throws IOException, NoSuchAlgorithmException {
-        String body = body("007","20200101","20200103");
+        String body = body("007","20200401","20200515");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -64,7 +70,7 @@ public class TJXXCX {
 
     @Test(groups = {"统计信息查询"})
     public void tjxxcx4() throws IOException, NoSuchAlgorithmException {
-        String body = body("004","20200101","20200103");
+        String body = body("004","20200503","20200503");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }

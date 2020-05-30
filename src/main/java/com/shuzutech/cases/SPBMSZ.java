@@ -18,7 +18,7 @@ public class SPBMSZ {
     @Test
     public void spbmsz() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
         Assert.assertEquals(code,0);
     }
 
@@ -27,14 +27,14 @@ public class SPBMSZ {
                 "<business id=\"SPBMSZ\">\n" +
                 "    <body>\n" +
                 "        <input>\n" +
-                "            <jsbh></jsbh>\n" +
-                "            <nsrsbh>110101201707010041</nsrsbh>\n" +
+                "            <jsbh>110101201707010057~~499000152456</jsbh>\n" +
+                "            <nsrsbh></nsrsbh>\n" +
                 "            <bm></bm>\n" +
-                "            <pid>1070202010100000000</pid>\n" +
-                "            <mc>有机化学原料1</mc>\n" +
-                "            <spbmjc>甲烷</spbmjc>\n" +
+                "            <pid>1010303020100000000</pid>\n" +
+                "            <mc>鸡蛋</mc>\n" +
+                "            <spbmjc>畜禽产品</spbmjc>\n" +
                 "            <sm></sm>\n" +
-                "            <zzstsgl>简易征收</zzstsgl>\n" +
+                "            <zzstsgl></zzstsgl>\n" +
                 "            <zzszcyj></zzszcyj>\n" +
                 "            <zzstsgldm></zzstsgldm>\n" +
                 "            <xfsgl></xfsgl>\n" +
@@ -48,13 +48,13 @@ public class SPBMSZ {
                 "            <gxsj></gxsj>\n" +
                 "            <yhlx></yhlx>\n" +
                 "            <mslx></mslx>\n" +
-                "            <kysl>0、0.03、0.13</kysl>\n" +
-                "            <sl>0.03</sl>\n" +
+                "            <kysl>0、0.03、0.09</kysl>\n" +
+                "            <sl>0.09</sl>\n" +
                 "            <ggxh></ggxh>\n" +
                 "            <jldw></jldw>\n" +
                 "            <dj>20</dj>\n" +
                 "            <hsbz></hsbz>\n" +
-                "            <zzssl>0.13</zzssl>\n" +
+                "            <zzssl>0.09</zzssl>\n" +
                 "            <hgpm></hgpm>\n" +
                 "            <gmtjdm></gmtjdm>\n" +
                 "        </input>\n" +

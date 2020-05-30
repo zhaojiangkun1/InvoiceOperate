@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,6 +11,8 @@ import java.security.NoSuchAlgorithmException;
 public class SPBM {
 
     /**
+     * 91320594MA1MECA285
+     * 110101201707010064
      * 1:按照税号维护 非必填
      * 其他:(税控服务器:按照税号维护,智能设备:税号和机身编号),
      * 默认按其他处理
@@ -19,8 +21,8 @@ public class SPBM {
 
     @Test(groups = {"获取商品列表"})
     public void getSpList() throws IOException, NoSuchAlgorithmException {
-        String body = body("110101201707010057","","1");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        String body = body("110101201707010064","","");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 

@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,15 +9,19 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
 public class YBJSZ {
-    private static String jsbh="";
-    private static String nsrsbh="110101201707010064";
+    /**
+     * 110101201707010064
+     * 91320594MA1MECA285
+     */
+    private static String jsbh="91320191MA1ML4CL25~~661921253676";
+    private static String nsrsbh="";  //110101201707010064  91320191MA1ML4CL25
     private static String fplxdm="004";
-    private static String top = "0";//打印上边距，可正可负  整数
-    private static String left = "0";//打印左边距，可正可负  整数
+    private static String top = "10";//打印上边距，可正可负  整数
+    private static String left = "-20";//打印左边距，可正可负  整数
 
     @Test
     public void ybjsz() throws IOException, NoSuchAlgorithmException {
-        int code = RequestInterface.requestInteface(body(), TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body(), BasicParameters.num);
         Assert.assertEquals(code, 0);
     }
 

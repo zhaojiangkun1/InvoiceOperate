@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.annotations.Test;
 
@@ -15,7 +15,7 @@ public class FPLGXXTBCX {
     @Test
     public void fplgxxtbcx() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        RequestInterface.requestInteface(body, TestEnvironment.num);
+        RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
     public String body(){

@@ -1,6 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.annotations.Test;
 
@@ -18,7 +18,7 @@ public class FPSL {
     @Test
     public void fpsl() throws IOException, NoSuchAlgorithmException {
         String body = body();
-        RequestInterface.requestInteface(body, TestEnvironment.num);
+        RequestInterface.requestInteface(body, BasicParameters.num);
     }
     //证件类型zjlx 取值判断
 

@@ -1,7 +1,6 @@
 package com.shuzutech.cases;
 
-import com.shuzutech.bean.TestEnvironment;
-import com.shuzutech.config.InterfaceNum;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,9 +11,10 @@ import java.security.NoSuchAlgorithmException;
 public class DQFPXX {
 
     private String jsbh = "";
-    private String nsrsbh = "91320191MA1ML4CL25";
+    private String nsrsbh = "91110105MA01NCQT9H";
 
     /**
+     * 91320594MA1MECA285
      * 智能设备：发票请求流水号：32位；税控服务器是20位
      *110101201601010075~~A20017260026921
      * 110101201707010057~~499000152456
@@ -27,7 +27,7 @@ public class DQFPXX {
     @Test(groups = {"当前发票信息"})
     public void dqfpxx() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"026");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
@@ -36,12 +36,12 @@ public class DQFPXX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"当前发票信息"})
-    public void dqfpxx2() throws IOException, NoSuchAlgorithmException {
-        String body = body(jsbh,"025");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
-        Assert.assertEquals(code,0);
-    }
+//    @Test(groups = {"当前发票信息"})
+//    public void dqfpxx2() throws IOException, NoSuchAlgorithmException {
+//        String body = body(jsbh,"025");
+//        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+//        Assert.assertEquals(code,0);
+//    }
 
     /**
      * 查询普票
@@ -51,7 +51,7 @@ public class DQFPXX {
     @Test(groups = {"当前发票信息"})
     public void dqfpxx3() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"007");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
@@ -64,7 +64,7 @@ public class DQFPXX {
     @Test(groups = {"当前发票信息"})
     public void dqfpxx4() throws IOException, NoSuchAlgorithmException {
         String body = body(jsbh,"004");
-        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 

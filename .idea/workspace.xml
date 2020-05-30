@@ -2,28 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb7b4d18-6739-4fca-b909-6f5d292708ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPPLCX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPXF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/JKSJCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/TestEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/BasicParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/AICODE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSBZT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/CXSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DQFPXX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DZFPCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/DZFPCF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPDYDATA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPLGXXTBCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPLGXXTBCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPQDDY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPQDDY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSLZBXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSLZBXXCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSLZTCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPSLZTCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPTTBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPTTBQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPWSGPLR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPWSGPLR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPXF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPXF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/FPZF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/GPXXCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/JBRCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/JBRCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYTTXXCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/QYXXSZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZXSH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZXSH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/SPBM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/SPBM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/SPBMSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/SPBMSZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TJXXCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/TermaryQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/YBJSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/YBJSZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZNDY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZNDY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZZPJSQR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/ZZPJSQR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5InvoiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5InvoiceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5MakeInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5MakeInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/TestEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/TestEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/InvoiceInto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/InvoiceInto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/AICODE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/AICODE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/CXSBZT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/CXSBZT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DQFPXX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DQFPXX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DZFPCF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/DZFPCF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPBD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYDATA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPDYDATA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPPLCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPPLCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPQDDY.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPQDDY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPTTBQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPTTBQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPXF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPXF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPZF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/FPZF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/GPXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/GPXXCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/QYXXSZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/ZXSH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/ZXSH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/SPBM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/SPBM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/SPBMSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/SPBMSZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TJXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TJXXCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TermaryQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/TermaryQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/YBJSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/YBJSZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/ZNDY.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/ZNDY.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5InvoiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5InvoiceConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5MakeInvoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5MakeInvoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/InvoiceInto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/InvoiceInto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +123,8 @@
       <recent name="D:\IdeaProjects\InvoiceOperter\Moco" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FPPLCX.fpplcx">
-    <configuration name="DZFPCF.dzfpcf" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JKSJCX.jksjcx">
+    <configuration name="FPXF.fpxf" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.DZFPCF" />
-      <option name="METHOD_NAME" value="dzfpcf" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.FPXF" />
+      <option name="METHOD_NAME" value="fpxf" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FPCX.fpcx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JKSJCX.jksjcx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +151,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.FPCX" />
-      <option name="METHOD_NAME" value="fpcx" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.JKSJCX" />
+      <option name="METHOD_NAME" value="jksjcx" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FPPLCX.fpplcx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QYXXCX.qyxxcx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +169,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.FPPLCX" />
-      <option name="METHOD_NAME" value="fpplcx" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.QYXXCX" />
+      <option name="METHOD_NAME" value="qyxxcx" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,25 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H5InvoiceConfig.h5InvoiceConfig" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.H5InvoiceConfig" />
-      <option name="METHOD_NAME" value="h5InvoiceConfig" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZXSH.zxsh" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TermaryQuery.termaryQuery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +187,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.ZXSH" />
-      <option name="METHOD_NAME" value="zxsh" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.TermaryQuery" />
+      <option name="METHOD_NAME" value="termaryQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YBJSZ.ybjsz" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzutech.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuzutech.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.YBJSZ" />
+      <option name="METHOD_NAME" value="ybjsz" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,19 +215,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ZXSH.zxsh" />
-      <item itemvalue="TestNG.FPCX.fpcx" />
-      <item itemvalue="TestNG.H5InvoiceConfig.h5InvoiceConfig" />
-      <item itemvalue="TestNG.DZFPCF.dzfpcf" />
-      <item itemvalue="TestNG.FPPLCX.fpplcx" />
+      <item itemvalue="TestNG.JKSJCX.jksjcx" />
+      <item itemvalue="TestNG.YBJSZ.ybjsz" />
+      <item itemvalue="TestNG.TermaryQuery.termaryQuery" />
+      <item itemvalue="TestNG.QYXXCX.qyxxcx" />
+      <item itemvalue="TestNG.FPXF.fpxf" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FPPLCX.fpplcx" />
-        <item itemvalue="TestNG.H5InvoiceConfig.h5InvoiceConfig" />
-        <item itemvalue="TestNG.DZFPCF.dzfpcf" />
-        <item itemvalue="TestNG.FPCX.fpcx" />
-        <item itemvalue="TestNG.ZXSH.zxsh" />
+        <item itemvalue="TestNG.JKSJCX.jksjcx" />
+        <item itemvalue="TestNG.FPXF.fpxf" />
+        <item itemvalue="TestNG.QYXXCX.qyxxcx" />
+        <item itemvalue="TestNG.TermaryQuery.termaryQuery" />
+        <item itemvalue="TestNG.YBJSZ.ybjsz" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +421,32 @@
       <workItem from="1587624272300" duration="1962000" />
       <workItem from="1587691798479" duration="3191000" />
       <workItem from="1587864952833" duration="3064000" />
-      <workItem from="1587882166729" duration="2922000" />
+      <workItem from="1587882166729" duration="4288000" />
+      <workItem from="1587953542334" duration="14276000" />
+      <workItem from="1588040575590" duration="15672000" />
+      <workItem from="1588126299470" duration="12353000" />
+      <workItem from="1588734155270" duration="7358000" />
+      <workItem from="1588817949889" duration="5560000" />
+      <workItem from="1588905135061" duration="4796000" />
+      <workItem from="1588989506259" duration="10416000" />
+      <workItem from="1589162476185" duration="9851000" />
+      <workItem from="1589249935078" duration="10290000" />
+      <workItem from="1589335400038" duration="13897000" />
+      <workItem from="1589420343311" duration="9823000" />
+      <workItem from="1589506555506" duration="14421000" />
+      <workItem from="1589769767824" duration="12571000" />
+      <workItem from="1589854207446" duration="1212000" />
+      <workItem from="1589856232203" duration="15325000" />
+      <workItem from="1589941819173" duration="16393000" />
+      <workItem from="1590029298336" duration="7418000" />
+      <workItem from="1590115017384" duration="2806000" />
+      <workItem from="1590117989575" duration="7488000" />
+      <workItem from="1590373957595" duration="1366000" />
+      <workItem from="1590376390360" duration="9370000" />
+      <workItem from="1590458389563" duration="12403000" />
+      <workItem from="1590551452509" duration="11713000" />
+      <workItem from="1590631316655" duration="7193000" />
+      <workItem from="1590718609191" duration="6447000" />
     </task>
     <servers />
   </component>
@@ -401,38 +467,58 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="106" key="FileChooserDialogImpl" timestamp="1587882175590">
+    <state x="327" y="86" key="FileChooserDialogImpl" timestamp="1590740396569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587882175590" />
-    <state width="1483" height="229" key="GridCell.Tab.0.bottom" timestamp="1587890428097">
+    <state x="327" y="86" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590740396569" />
+    <state width="1483" height="121" key="GridCell.Tab.0.bottom" timestamp="1590748258047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587890428097" />
-    <state width="1483" height="229" key="GridCell.Tab.0.center" timestamp="1587890428096">
+    <state width="1483" height="121" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590748258047" />
+    <state width="1483" height="121" key="GridCell.Tab.0.center" timestamp="1590748258047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587890428096" />
-    <state width="1483" height="229" key="GridCell.Tab.0.left" timestamp="1587890428096">
+    <state width="1483" height="121" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590748258047" />
+    <state width="1483" height="121" key="GridCell.Tab.0.left" timestamp="1590748258047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587890428096" />
-    <state width="1483" height="229" key="GridCell.Tab.0.right" timestamp="1587890428097">
+    <state width="1483" height="121" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590748258047" />
+    <state width="1483" height="121" key="GridCell.Tab.0.right" timestamp="1590748258047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587890428097" />
+    <state width="1483" height="121" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590748258047" />
+    <state width="1483" height="369" key="GridCell.Tab.1.bottom" timestamp="1590489194821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="369" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590489194821" />
+    <state width="1483" height="369" key="GridCell.Tab.1.center" timestamp="1590489194820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="369" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590489194820" />
+    <state width="1483" height="369" key="GridCell.Tab.1.left" timestamp="1590489194820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="369" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590489194820" />
+    <state width="1483" height="369" key="GridCell.Tab.1.right" timestamp="1590489194821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="369" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590489194821" />
     <state x="186" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586931318411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="186" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1586931318411" />
-    <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1587882169951">
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1590718610788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587882169951" />
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590718610788" />
     <state x="436" y="124" key="extract.method.dialog" timestamp="1586934913690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="124" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1586934913690" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1589530273602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589530273602" />
   </component>
   <component name="masterDetails">
     <states>

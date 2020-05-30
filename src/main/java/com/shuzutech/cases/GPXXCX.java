@@ -25,8 +25,8 @@ public class GPXXCX {
 
     @Test
     public void gpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320191MA1ML4CL25~~661826092245","026","2","1","91320191MA1ML4CL25","661826092245","");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        String body = body("","026","2","1","91320191MA1ML4CL25","661921253676","");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
         Assert.assertEquals(code,0);
     }
 

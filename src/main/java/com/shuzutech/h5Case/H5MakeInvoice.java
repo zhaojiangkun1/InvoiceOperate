@@ -12,6 +12,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class H5MakeInvoice {
+    /**
+     * 110101201707010041~~499000152131
+     */
 
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyymmddHHMMss");
     String date = simpleDateFormat.format(new Date());
