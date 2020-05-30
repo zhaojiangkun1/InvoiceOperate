@@ -20,8 +20,8 @@ public class CXSBZT {
      * 91320594346148467C
      * 110101201707010057~~499000152456  增加了nsrsbh   110101201707010043   91510107690912532D
      */
-    private static String jsbh = "";
-    private static String nsrsbh = "91320594MA1MECA285";
+    private static String jsbh = BasicParameters.jsbh;
+    private static String nsrsbh = BasicParameters.nsrsbh;
 
     @Test(groups = {"查询设备状态"})
     public void cxsbzt() throws IOException, NoSuchAlgorithmException {

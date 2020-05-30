@@ -10,8 +10,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class DQFPXX {
 
-    private String jsbh = "";
-    private String nsrsbh = "91110105MA01NCQT9H";
+    private String jsbh = BasicParameters.jsbh;
+    private String nsrsbh = BasicParameters.nsrsbh;
 
     /**
      * 91320594MA1MECA285

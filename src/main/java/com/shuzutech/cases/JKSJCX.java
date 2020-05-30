@@ -11,8 +11,8 @@ import java.security.NoSuchAlgorithmException;
 public class JKSJCX {
 
     private static String sblx = "2";
-    private static String nsrsbh = "";
-    private static String jsbh = "110101201707010057~~499000152456";
+    private static String nsrsbh = BasicParameters.nsrsbh;
+    private static String jsbh = BasicParameters.jsbh;
     private static String fplxdm = "026";
 
     @Test

@@ -8,8 +8,8 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
 public class CXSL {
-    private static String nsrsbh = "110101201707010057";
-    private static String jsbh = "";
+    private static String nsrsbh = BasicParameters.nsrsbh;
+    private static String jsbh = BasicParameters.jsbh;
 
     @Test
     public void cxsl() throws IOException, NoSuchAlgorithmException {
