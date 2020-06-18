@@ -14,15 +14,15 @@ public class InvoiceInto {
      * 旋极业务员：13699999999
      * /bw/invoice/third/register_page
      */
-    private static InterfaceNum num = InterfaceNum.TEST;
+    private static InterfaceNum num = InterfaceNum.DEV;
     private static String UA = "Chrome";
-    private static String staffMobile = "11455626287";
-    private static String companyName = "云票测试四十三";
+    private static String staffMobile = "12346776543";
+    private static String companyName = "合力测试四十三";
     private static String contact = "12210010010";
     private static String mobile = "12210010010";
-    private static String taxNo = "110101201707010043";
+    private static String taxNo = "110101201607010043";
     private static String outMerchantId = "201908171107";
-    private static String channelId = "620";
+    private static String channelId = "";
     /**
      * 第三方发票进件
      */

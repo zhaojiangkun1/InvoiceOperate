@@ -15,14 +15,14 @@
             </run>
         </groups>
         <classes>
-            <class name="com.shuzutech.cases.CXSBZT"/>
-            <class name="com.shuzutech.cases.FPCX"/>
-            <class name="com.shuzutech.cases.TermaryQuery"/>
-            <class name="com.shuzutech.cases.QYTTXXCX"/>
-            <class name="com.shuzutech.cases.TJXXCX"/>
-            <class name="com.shuzutech.cases.QYXXCX"/>
-            <class name="com.shuzutech.cases.AICODE"/>
-            <class name="com.shuzutech.cases.DQFPXX"/>
+            <class name="com.shuzutech.cases.fpsb.CXSBZT"/>
+            <class name="com.shuzutech.cases.fpgl.FPCX"/>
+            <class name="com.shuzutech.cases.fpsb.TermaryQuery"/>
+            <class name="com.shuzutech.cases.qyxx.QYTTXXCX"/>
+            <class name="com.shuzutech.cases.fpsb.TJXXCX"/>
+            <class name="com.shuzutech.cases.qyxx.QYXXCX"/>
+            <class name="com.shuzutech.cases.spgl.AICODE"/>
+            <class name="com.shuzutech.cases.fpgl.DQFPXX"/>
         </classes>
     </test>
     <listeners>

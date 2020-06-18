@@ -4,7 +4,7 @@ import com.shuzutech.config.InterfaceNum;
 
 public class BasicParameters {
 
-    public static InterfaceNum num = InterfaceNum.TEST;
+    public static InterfaceNum num = InterfaceNum.DEV;
     /**
      * 110101201707010064~~499000152528
      * 110101201601010075~~A20017260026921
@@ -15,7 +15,7 @@ public class BasicParameters {
      * 91320594346148467C
      * 110101201707010057~~499000152456
      */
-    public static String jsbh = "110101201707010057~~499000152456";
-    public static String nsrsbh = "110101201707010057";
+    public static String jsbh = "91320594MA1MECA285~~537100950610";
+    public static String nsrsbh = "";
 
 }

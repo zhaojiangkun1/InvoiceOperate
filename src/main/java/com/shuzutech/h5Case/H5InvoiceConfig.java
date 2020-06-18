@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class H5InvoiceConfig {
     private static String UA = "Chrome";
-    private static String shnsrsbh = "110101201707010057";
+    private static String shnsrsbh = "91320191MA1ML4CL25";
     private static String terminalKey = "";
     private static InterfaceNum num = InterfaceNum.DEV;
 
