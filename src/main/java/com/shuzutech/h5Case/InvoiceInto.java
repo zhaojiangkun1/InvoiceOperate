@@ -17,12 +17,12 @@ public class InvoiceInto {
     private static InterfaceNum num = InterfaceNum.DEV;
     private static String UA = "Chrome";
     private static String staffMobile = "12346776543";
-    private static String companyName = "合力测试四十三";
-    private static String contact = "12210010010";
-    private static String mobile = "12210010010";
-    private static String taxNo = "110101201607010043";
-    private static String outMerchantId = "201908171107";
-    private static String channelId = "";
+    private static String companyName = "合力测试四十四";
+    private static String contact = "12210010011";
+    private static String mobile = "12210010011";
+    private static String taxNo = "110101201607010044";
+    private static String outMerchantId = "201908171108";
+    private static String channelId = "627";//不明白为啥channelId是必传的
     /**
      * 第三方发票进件
      */

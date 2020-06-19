@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 public class DQFPXX {
 
     private String jsbh = BasicParameters.jsbh;
-    private String nsrsbh = BasicParameters.nsrsbh;
+    private String nsrsbh = "";
 
     /**
      * 91320594MA1MECA285
@@ -24,9 +24,9 @@ public class DQFPXX {
      * @throws NoSuchAlgorithmException
      * 查询电子票
      */
-    @Test(groups = {"当前发票信息"})
+    @Test(groups = {"当前发票信息"},description = "查询当前电子发票的发票代码和发票号码")
     public void dqfpxx() throws IOException, NoSuchAlgorithmException {
-        String body = body(jsbh,"026");
+        String body = body(jsbh,"","026");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
@@ -36,21 +36,21 @@ public class DQFPXX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-//    @Test(groups = {"当前发票信息"})
-//    public void dqfpxx2() throws IOException, NoSuchAlgorithmException {
-//        String body = body(jsbh,"025");
-//        int code = RequestInterface.requestInteface(body, TestEnvironment.num);
-//        Assert.assertEquals(code,0);
-//    }
+    @Test(groups = {"当前发票信息"},description = "查询当前卷票的发票代码和发票号码")
+    public void dqfpxx2() throws IOException, NoSuchAlgorithmException {
+        String body = body(jsbh,"","025");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        Assert.assertEquals(code,0);
+    }
 
     /**
      * 查询普票
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"当前发票信息"})
+    @Test(groups = {"当前发票信息"},description = "查询当前普票的发票代码和发票号码")
     public void dqfpxx3() throws IOException, NoSuchAlgorithmException {
-        String body = body(jsbh,"007");
+        String body = body(jsbh,"","007");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
@@ -61,16 +61,23 @@ public class DQFPXX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test(groups = {"当前发票信息"})
+    @Test(groups = {"当前发票信息"},description = "查询当前专票的发票代码和发票号码")
     public void dqfpxx4() throws IOException, NoSuchAlgorithmException {
-        String body = body(jsbh,"004");
+        String body = body(jsbh,"","004");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        Assert.assertEquals(code,0);
+    }
+
+    @Test(groups = {"当前发票信息"},description = "机身编号为空，根据纳税人识别号查询当前的发票代码和发票号码")
+    public void byNsrsbhDqfpxx() throws IOException, NoSuchAlgorithmException {
+        String body = body("",BasicParameters.nsrsbh,"004");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
 
 
-    public String body(String jsbh,String fplxdm){
+    public String body(String jsbh,String nsrsbh,String fplxdm){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"DQFPXX\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+
                 fplxdm+"</fplxdm></input></body></business>";
         return body;

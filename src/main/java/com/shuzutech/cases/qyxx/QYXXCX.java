@@ -24,10 +24,10 @@ public class QYXXCX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "110101201707010031";
+    private static String nsrsbh = BasicParameters.nsrsbh;
     private static String jsbh = "";
 
-    @Test(groups = {"企业信息查询"})
+    @Test(groups = {"企业信息查询"},description = "企业信息查询")
     public void qyxxcx() throws IOException, NoSuchAlgorithmException {
         String body = body();
         int code = RequestInterface.requestInteface(body, BasicParameters.num);

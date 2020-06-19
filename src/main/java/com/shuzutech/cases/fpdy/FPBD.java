@@ -21,9 +21,14 @@ public class FPBD {
      * @throws NoSuchAlgorithmException
      */
 
-    private static String nsrsbh = "110101201707010064";
+    private static String nsrsbh = BasicParameters.nsrsbh;
 
-    @Test
+    /**
+     * 尤其要关注一税号多盘情况，如果是一税号多盘，看看有没有问题
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+    @Test(groups = {"发票补打"})
     public void fpbd() throws IOException, NoSuchAlgorithmException {
         String body = body("","007","050000000102","99129884");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);

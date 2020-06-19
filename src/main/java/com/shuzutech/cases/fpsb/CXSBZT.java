@@ -14,23 +14,22 @@ public class CXSBZT {
      * 根据平台连接方式去判断，如果是宁波间连就是走之前接口，如果是宁波直连则走CXSBXX接口
      * @throws IOException
      * @throws NoSuchAlgorithmException
-     * 91320191MA1ML4CL25~~661826092245  主盘
-     * 91320191MA1ML4CL25~~661921253676  分盘
-     * 110101201601010075~~A20017260026921   110101201707010064   91440300MA5FPUAP6F
-     * 91320594346148467C
-     * 110101201707010057~~499000152456  增加了nsrsbh   110101201707010043   91510107690912532D
      */
-    private static String jsbh = "91320191MA1ML4CL25~~661826092245";
-    private static String nsrsbh ="";
-
-    @Test(groups = {"查询设备状态"})
-    public void cxsbzt() throws IOException, NoSuchAlgorithmException {
-        String body = body();
+    @Test(groups = {"查询设备状态"},description = "纳税人识别号为空，根据机身编号查设备状态")
+    public void byJsbhCxsbzt() throws IOException, NoSuchAlgorithmException {
+        String body = body(BasicParameters.jsbh,"");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
-    public String body(){
+    @Test(groups = {"查询设备状态"},description = "机身编号为空，根据纳税人识别号查询设备状态")
+    public void byNsrsbhCxsbzt() throws IOException, NoSuchAlgorithmException {
+        String body = body("",BasicParameters.nsrsbh);
+        int code = RequestInterface.requestInteface(body,BasicParameters.num);
+        Assert.assertEquals(code,0);
+    }
+
+    public String body(String jsbh,String nsrsbh){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"CXSBZT\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
         return body;
     }

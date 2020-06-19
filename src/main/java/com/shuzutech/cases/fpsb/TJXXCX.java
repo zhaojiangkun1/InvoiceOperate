@@ -11,10 +11,11 @@ import java.security.NoSuchAlgorithmException;
 
 public class TJXXCX {
 
-    private String jsbh = "";
-    private static String nsrsbh = "91320191MA1ML4CL25";
+    private String jsbh = BasicParameters.jsbh;
+    private static String nsrsbh = "";
     private InterfaceNum num = BasicParameters.num;
-
+    private static String qsrq="20200601";
+    private static String zzrq="20200618";
     /**
      * 110101201707010064
      *qsrq:后期会作废掉，zzrq：要查询的当前日期
@@ -29,9 +30,9 @@ public class TJXXCX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"统计信息查询"})
+    @Test(groups = {"统计信息查询"},description = "电子发票的统计信息查询")
     public void tjxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("026","20200301","20200420");
+        String body = body(jsbh,"","026",qsrq,zzrq);
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -42,9 +43,9 @@ public class TJXXCX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test(groups = {"统计信息查询"})
+    @Test(groups = {"统计信息查询"},description = "卷票的统计信息查询")
     public void tjxxcx2() throws IOException, NoSuchAlgorithmException {
-        String body = body("025","","20200103");
+        String body = body(jsbh,"","025",qsrq,zzrq);
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -55,9 +56,9 @@ public class TJXXCX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test(groups = {"统计信息查询"})
+    @Test(groups = {"统计信息查询"},description = "普票的统计信息查询")
     public void tjxxcx3() throws IOException, NoSuchAlgorithmException {
-        String body = body("007","20200401","20200515");
+        String body = body(jsbh,"","007",qsrq,zzrq);
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -68,9 +69,21 @@ public class TJXXCX {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test(groups = {"统计信息查询"})
+    @Test(groups = {"统计信息查询"},description = "专票的统计信息查询")
     public void tjxxcx4() throws IOException, NoSuchAlgorithmException {
-        String body = body("004","20200601","20200608");
+        String body = body(jsbh,"","004","20200601","20200608");
+        int code = RequestInterface.requestInteface(body, num);
+        Assert.assertEquals(code,0);
+    }
+
+    /**
+     * 多税盘的时候需要关注下
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+    @Test(groups = {"统计信息查询"},description = "机身编号为空，根据纳税人识别号统计信息查询")
+    public void byNsrsbhTjxxcx() throws IOException, NoSuchAlgorithmException {
+        String body = body("",BasicParameters.nsrsbh,"004","20200601","20200608");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code,0);
     }
@@ -78,7 +91,7 @@ public class TJXXCX {
 
 
 
-    public String body(String fplxdm,String qsrq,String zzrq){
+    public String body(String jsbh,String nsrsbh,String fplxdm,String qsrq,String zzrq){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"TJXXCX\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+fplxdm+
                 "</fplxdm><qsrq>"+qsrq+"</qsrq><zzrq>"+zzrq+"</zzrq></input></body></business>";
         return body;

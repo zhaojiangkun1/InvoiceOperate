@@ -21,9 +21,9 @@ public class FPZF {
      * @throws NoSuchAlgorithmException
      *
      */
-    private static String nsrsbh = "91320191MA1ML4CL25";
+    private static String nsrsbh = BasicParameters.nsrsbh;
 
-    @Test
+    @Test(groups = {"发票作废"},description = "已开具发票作废")
     public void fpzf() throws IOException, NoSuchAlgorithmException {
         String body = body("56436286","",
                             "004","1","-100",
@@ -39,7 +39,7 @@ public class FPZF {
      * @throws NoSuchAlgorithmException
      */
 
-    @Test
+    @Test(groups = {"发票作废"},description = "空白发票作废")
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
         String body = body1("99129874","",
                 "007","0","050000000102",

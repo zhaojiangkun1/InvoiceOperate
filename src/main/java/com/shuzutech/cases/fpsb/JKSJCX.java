@@ -10,18 +10,33 @@ import java.security.NoSuchAlgorithmException;
 
 public class JKSJCX {
 
-    private static String sblx = "1";
-    private static String nsrsbh = BasicParameters.nsrsbh;
-    private static String jsbh = BasicParameters.jsbh;
-    private static String fplxdm = "026";
+    /**
+     * sblx : 0和1   1：税控服务器
+     * 此接口机身编号必传，纳税人识别号可选
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+    private static String sblx = "2";
 
-    @Test
-    public void jksjcx() throws IOException, NoSuchAlgorithmException {
-        int code = RequestInterface.requestInteface(body(), BasicParameters.num);
+    @Test(groups = {"监控数据查询"},description = "查询电子票的监控数据")
+    public void eTicketJksjcx() throws IOException, NoSuchAlgorithmException {
+        int code = RequestInterface.requestInteface(body(sblx,"",BasicParameters.jsbh,"026"), BasicParameters.num);
         Assert.assertEquals(code, 0);
     }
 
-    public static String body() {
+    @Test(groups = {"监控数据查询"},description = "查询普票的监控数据")
+    public void puPiaoJksjcx() throws IOException, NoSuchAlgorithmException {
+        int code = RequestInterface.requestInteface(body(sblx,"",BasicParameters.jsbh,"007"), BasicParameters.num);
+        Assert.assertEquals(code, 0);
+    }
+
+    @Test(groups = {"监控数据查询"},description = "查询专票的监控数据")
+    public void zhuanPiaoJksjcx() throws IOException, NoSuchAlgorithmException {
+        int code = RequestInterface.requestInteface(body(sblx,"",BasicParameters.jsbh,"004"), BasicParameters.num);
+        Assert.assertEquals(code, 0);
+    }
+
+    public static String body(String sblx,String nsrsbh,String jsbh,String fplxdm) {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"JKSJCX\"><body><input><sblx>" + sblx + "</sblx><nsrsbh>" + nsrsbh + "</nsrsbh><jsbh>" + jsbh + "</jsbh><fplxdm>" + fplxdm + "</fplxdm></input></body></business>";
         return body;
     }

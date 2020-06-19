@@ -13,6 +13,11 @@ public class ZXSH {
     private static String skph = "A20016420000265";//多个盘时必填
     private static String cancelTime = "20200524";//发票业务注销时间
 
+    /**
+     * 这个用于占用的额度的注销，暂时不在自动化之列
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
     @Test
     public void zxsh() throws IOException, NoSuchAlgorithmException {
         /**

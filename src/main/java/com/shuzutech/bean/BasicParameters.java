@@ -4,18 +4,24 @@ import com.shuzutech.config.InterfaceNum;
 
 public class BasicParameters {
 
-    public static InterfaceNum num = InterfaceNum.DEV;
+    public static InterfaceNum num = InterfaceNum.TEST;
     /**
      * 110101201707010064~~499000152528
      * 110101201601010075~~A20017260026921
+     * 110101201707010037~~A10016420000196
      * 500102010001448
-     * 91320191MA1ML4CL25
      * 110101201707010043
      * 110101201707010064
      * 91320594346148467C
      * 110101201707010057~~499000152456
+     * 商客汇Ukey：91320594MA1MECA285~~537100950610
+     * 91320191MA1ML4CL25~~661826092245  主盘
+     * 91320191MA1ML4CL25~~661921253676  分盘
+     * 增加了nsrsbh   110101201707010043   91510107690912532D
+     * 110101201707010031~~499000152034
      */
-    public static String jsbh = "91320594MA1MECA285~~537100950610";
-    public static String nsrsbh = "";
+    public static String jsbh = "91320191MA1ML4CL25~~661826092245";
+    public static String nsrsbh = "91320191MA1ML4CL25";
+    public static String skph = "661826092245";
 
 }

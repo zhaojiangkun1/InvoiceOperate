@@ -25,17 +25,28 @@ public class FPXF {
      * @throws NoSuchAlgorithmException
      */
     private static String jsbh = BasicParameters.jsbh;
-    private static String fplxdm = "026";
     private static String xfrq = "2020-06-10";//格式：YYYY-mm-dd
 
-    @Test
-    public void fpxf() throws IOException, NoSuchAlgorithmException {
-        String body = body();
+    @Test(groups = {"发票修复"},description = "修复某日电子发票")
+    public void eTicketFpxf() throws IOException, NoSuchAlgorithmException {
+        String body = body("026");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        Assert.assertEquals(code,0);
+    }
+    @Test(groups = {"发票修复"},description = "修复某日增值税普通发票")
+    public void puPiaoFpxf() throws IOException, NoSuchAlgorithmException {
+        String body = body("007");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        Assert.assertEquals(code,0);
+    }
+    @Test(groups = {"发票修复"},description = "修复某日增值税专票")
+    public void zhuanPiaoFpxf() throws IOException, NoSuchAlgorithmException {
+        String body = body("004");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
-    public String body(){
+    public String body(String fplxdm){
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>" + "<business id=\"FPXF\">" + "<body>" + "<input>" +
                 "<jsbh>" + jsbh + "</jsbh>" +
                 "<fplxdm>" + fplxdm + "</fplxdm>" +

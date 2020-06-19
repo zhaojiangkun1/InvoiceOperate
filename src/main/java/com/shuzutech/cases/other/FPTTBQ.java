@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpgl;
+package com.shuzutech.cases.other;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
