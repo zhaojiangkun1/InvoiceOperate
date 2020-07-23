@@ -1,7 +1,6 @@
 package com.shuzutech.cases.fpsb;
 
 import com.shuzutech.bean.BasicParameters;
-import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -54,6 +53,11 @@ public class GPXXCX {
         Assert.assertEquals(code,0);
     }
 
+    /**
+     * 旋极航信  航信盘插在电脑打开云票助手，GPXXCX只能查到dqfpdm和dqfphm，其它信息都无返回
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
     @Test(groups = {"购票信息查询"},description = "查询专票的购票信息")
     public void queryZhuanPiaoGpxxcx() throws IOException, NoSuchAlgorithmException {
         String body = body(BasicParameters.jsbh,"004","2",fpzt,nsrsbh,qtzd,"");

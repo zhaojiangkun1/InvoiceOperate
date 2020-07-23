@@ -25,7 +25,7 @@ public class FPXF {
      * @throws NoSuchAlgorithmException
      */
     private static String jsbh = BasicParameters.jsbh;
-    private static String xfrq = "2020-06-10";//格式：YYYY-mm-dd
+    private static String xfrq = "2020-06-22";//格式：YYYY-mm-dd
 
     @Test(groups = {"发票修复"},description = "修复某日电子发票")
     public void eTicketFpxf() throws IOException, NoSuchAlgorithmException {
