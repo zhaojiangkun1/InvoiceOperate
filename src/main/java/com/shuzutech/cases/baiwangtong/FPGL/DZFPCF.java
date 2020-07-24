@@ -1,4 +1,4 @@
-package com.shuzutech.cases.baiwangtong;
+package com.shuzutech.cases.baiwangtong.FPGL;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;

@@ -9,6 +9,8 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
@@ -39,7 +41,16 @@ public class SsbmRequest {
         post.setHeader("Content-MD5",contendMd5);
         HttpResponse response = client.execute(post);
         String result = EntityUtils.toString(response.getEntity(),"utf-8");
+        write(result);
         return result;
+    }
+
+    public static void write(String result) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\IdeaProjects\\InvoiceOperter\\src\\main\\resources\\ssbqq.xml"));
+        bw.write(result);
+        bw.newLine();
+        bw.close();
+        System.out.println("写入成功");
     }
 
 }

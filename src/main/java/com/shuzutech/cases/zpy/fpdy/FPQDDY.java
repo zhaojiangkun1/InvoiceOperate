@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpdy;
+package com.shuzutech.cases.zpy.fpdy;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;

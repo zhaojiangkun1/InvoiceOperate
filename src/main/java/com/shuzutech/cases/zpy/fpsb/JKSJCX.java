@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpsb;
+package com.shuzutech.cases.zpy.fpsb;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;

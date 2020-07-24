@@ -16,18 +16,18 @@
             </run>
         </groups>
         <classes>
-            <class name="com.shuzutech.cases.fpsb.CXSBZT"/>
-            <class name="com.shuzutech.cases.fpsb.GPXXCX"/>
-            <class name="com.shuzutech.cases.fpsb.JKSJCX"/>
-            <class name="com.shuzutech.cases.fpsb.TermaryQuery"/>
-            <class name="com.shuzutech.cases.fpsb.TJXXCX"/>
-            <class name="com.shuzutech.cases.fpgl.DQFPXX"/>
-            <class name="com.shuzutech.cases.fpgl.FPCX"/>
-            <class name="com.shuzutech.cases.fpgl.FPXF"/>
-            <class name="com.shuzutech.cases.fpgl.FPZF"/>
-            <class name="com.shuzutech.cases.qyxx.QYXXSZ"/>
-            <class name="com.shuzutech.cases.qyxx.QYXXCX"/>
-            <class name="com.shuzutech.cases.qyxx.QYTTXXCX"/>
+            <class name="com.shuzutech.cases.zpy.fpsb.CXSBZT"/>
+            <class name="com.shuzutech.cases.zpy.fpsb.GPXXCX"/>
+            <class name="com.shuzutech.cases.zpy.fpsb.JKSJCX"/>
+            <class name="com.shuzutech.cases.zpy.fpsb.TermaryQuery"/>
+            <class name="com.shuzutech.cases.zpy.fpsb.TJXXCX"/>
+            <class name="com.shuzutech.cases.zpy.fpgl.DQFPXX"/>
+            <class name="com.shuzutech.cases.zpy.fpgl.FPCX"/>
+            <class name="com.shuzutech.cases.zpy.fpgl.FPXF"/>
+            <class name="com.shuzutech.cases.zpy.fpgl.FPZF"/>
+            <class name="com.shuzutech.cases.zpy.qyxx.QYXXSZ"/>
+            <class name="com.shuzutech.cases.zpy.qyxx.QYXXCX"/>
+            <class name="com.shuzutech.cases.zpy.qyxx.QYTTXXCX"/>
         </classes>
     </test>
     <listeners>

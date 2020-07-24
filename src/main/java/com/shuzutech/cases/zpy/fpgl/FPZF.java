@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpgl;
+package com.shuzutech.cases.zpy.fpgl;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
@@ -25,9 +25,9 @@ public class FPZF {
 
     @Test(groups = {"发票作废"},description = "已开具发票作废")
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("56436286","",
-                            "004","1","-100",
-                                "3200192130","赵坤");
+        String body = body("15338649","",
+                            "007","1","282.08",
+                                "032001900204","赵坤");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }

@@ -1,5 +1,6 @@
-package com.shuzutech.cases.spgl;
+package com.shuzutech.cases.zpy.spgl;
 
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.SsbmRequest;
 import org.testng.annotations.Test;
@@ -19,7 +20,7 @@ public class SSBMQQ {
     @Test
     public void ssbmqq() throws IOException, NoSuchAlgorithmException {
         String body = body("");
-        System.out.println(SsbmRequest.requestInteface(body,InterfaceNum.TEST));
+        System.out.println(SsbmRequest.requestInteface(body, BasicParameters.num));
     }
 
     public String body(String bbh){

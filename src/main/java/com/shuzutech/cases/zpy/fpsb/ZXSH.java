@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpsb;
+package com.shuzutech.cases.zpy.fpsb;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;

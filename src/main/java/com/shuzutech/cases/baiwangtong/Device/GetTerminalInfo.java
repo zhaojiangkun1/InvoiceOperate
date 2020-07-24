@@ -1,4 +1,4 @@
-package com.shuzutech.cases.baiwangtong;
+package com.shuzutech.cases.baiwangtong.Device;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class GetTerminalInfo {
     /**
-     * 百望通开票终端信息查询接口
+     * 百望通开票终端信息查询接口，可以查询到销方信息
      */
     private static String shnsrsbh = BasicParameters.bwt_nsrsbh;//必传
 

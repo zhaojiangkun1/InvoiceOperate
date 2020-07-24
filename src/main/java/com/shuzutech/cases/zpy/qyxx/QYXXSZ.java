@@ -1,4 +1,4 @@
-package com.shuzutech.cases.qyxx;
+package com.shuzutech.cases.zpy.qyxx;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;

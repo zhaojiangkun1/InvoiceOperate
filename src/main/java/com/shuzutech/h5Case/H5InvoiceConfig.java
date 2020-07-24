@@ -1,6 +1,7 @@
 package com.shuzutech.h5Case;
 
 import com.shuzutech.bean.AppInfo;
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.Encrypt;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.GetAccessToken;
@@ -11,8 +12,8 @@ import java.io.IOException;
 
 public class H5InvoiceConfig {
     private static String UA = "Chrome";
-    private static String shnsrsbh = "91320191MA1ML4CL25";
-    private static String terminalKey = "";
+    private static String shnsrsbh = BasicParameters.nsrsbh;
+    private static String terminalKey = "12312313";
     private static InterfaceNum num = InterfaceNum.DEV;
 
     /**

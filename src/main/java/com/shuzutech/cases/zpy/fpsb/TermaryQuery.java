@@ -1,7 +1,10 @@
-package com.shuzutech.cases.fpsb;
+package com.shuzutech.cases.zpy.fpsb;
 
 import com.shuzutech.bean.BasicParameters;
+import com.shuzutech.config.InterfaceNum;
+import com.shuzutech.model.RequestBody;
 import com.shuzutech.model.RequestInterface;
+import com.shuzutech.model.ZpyInputManagement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,18 +25,20 @@ public class TermaryQuery {
      * @throws NoSuchAlgorithmException
      */
 
+    InterfaceNum num = BasicParameters.num;
+
     @Test(groups = {"终端查询"},description = "终端查询")
     public void termaryQuery() throws IOException, NoSuchAlgorithmException {
         String nsrsbh = BasicParameters.nsrsbh;
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"TERMINALMANAGE\"><body><input><nsrsbh>" + nsrsbh + "</nsrsbh></input></body></business>";
-        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        String body = RequestBody.getRequestBody("TERMINALMANAGE", ZpyInputManagement.terminalManage(nsrsbh));
+        int code = RequestInterface.requestInteface(body,num);
         Assert.assertEquals(code, 0);
     }
 
     @Test(groups = {"终端查询"},description = "纳税人识别号为空,终端查询")
     public void nsrsbhIsNull() throws IOException, NoSuchAlgorithmException {
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"TERMINALMANAGE\"><body><input><nsrsbh>" + "" + "</nsrsbh></input></body></business>";
-        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        String body = RequestBody.getRequestBody("TERMINALMANAGE",ZpyInputManagement.terminalManage(""));
+        int code = RequestInterface.requestInteface(body,num);
         Assert.assertEquals(code, 10001);
     }
 }

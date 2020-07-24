@@ -1,4 +1,4 @@
-package com.shuzutech.cases.baiwangtong.spgl;
+package com.shuzutech.cases.baiwangtong.SPBM;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.CommodityCodeManagement;

@@ -1,5 +1,6 @@
-package com.shuzutech.cases.fpdy;
+package com.shuzutech.cases.zpy.fpdy;
 
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.annotations.Test;
@@ -22,13 +23,13 @@ public class ZNDY {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String nsrsbh = "110101201707010064";
-    private static String dylx = "1";//0：发票打印，1：清单打印
+    private static String nsrsbh = BasicParameters.nsrsbh;
+    private static String dylx = "0";//0：发票打印，1：清单打印
     private static String dyfs = "1";
 
     @Test
     public void zndy() throws IOException, NoSuchAlgorithmException {
-        String body = body("","007","","050000000102","99129884");
+        String body = body("","007","","050000000102","55504052");
         RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 

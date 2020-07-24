@@ -1,4 +1,4 @@
-package com.shuzutech.cases.other;
+package com.shuzutech.cases.zpy.other;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;

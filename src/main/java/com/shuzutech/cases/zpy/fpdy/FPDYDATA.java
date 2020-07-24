@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpdy;
+package com.shuzutech.cases.zpy.fpdy;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
@@ -27,8 +27,8 @@ public class FPDYDATA {
 
     @Test
     public void printqddata() throws IOException, NoSuchAlgorithmException {
-        String body = body("","050000000102","20192486","0");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTPRO);
+        String body = body("","1500000003","20252259","0");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTDEV);
         Assert.assertEquals(code,0);
     }
 

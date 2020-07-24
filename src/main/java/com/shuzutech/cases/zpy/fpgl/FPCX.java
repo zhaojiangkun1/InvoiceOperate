@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpgl;
+package com.shuzutech.cases.zpy.fpgl;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
@@ -30,8 +30,8 @@ public class FPCX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String fpqqlsh = "ZH47520200618174609";
-    private static String fplxdm = "026";
+    private static String fpqqlsh = "SZZPY20200722112546";
+    private static String fplxdm = "007";
 
     @Test(groups = {"发票查询"},description = "机身编号为空,根据纳税人识别号查询")
     public void fpcx() throws IOException, NoSuchAlgorithmException {

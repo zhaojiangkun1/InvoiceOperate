@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpdy;
+package com.shuzutech.cases.zpy.fpdy;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;
@@ -30,7 +30,7 @@ public class FPBD {
      */
     @Test(groups = {"发票补打"})
     public void fpbd() throws IOException, NoSuchAlgorithmException {
-        String body = body("","007","050000000102","99129884");
+        String body = body("","007","050000000102","55504052");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }

@@ -1,4 +1,4 @@
-package com.shuzutech.cases.baiwangtong.spgl;
+package com.shuzutech.cases.baiwangtong.SPBM;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.CommodityCodeManagement;
@@ -45,17 +45,23 @@ public class SPBMSZ {
         Assert.assertEquals(code,0);
     }
 
+    /**
+     * mslx
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
     @Test
     public void spbmsz2() throws IOException, NoSuchAlgorithmException {
         map.put("bm","");
         map.put("pid","3040203000000000000");
         map.put("spbmjc","信息技术服务");
-        map.put("mc","技术服务费");
+        map.put("mc","信息服务费");
         map.put("dj","");
+        map.put("kyzt","N");
         map.put("kysl","0.13、0.06、0.03、0.01、0");
         map.put("sl","0.03");
         map.put("sm","");
-        map.put("hsbz","Y");
+        map.put("hsbz","N");
         map.put("zzssl","0.13");
         int code = RequestInterface.requestInteface(body(map),BasicParameters.bwt_num);
         Assert.assertEquals(code,0);

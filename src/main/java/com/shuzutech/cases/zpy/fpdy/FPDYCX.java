@@ -1,5 +1,6 @@
-package com.shuzutech.cases.fpdy;
+package com.shuzutech.cases.zpy.fpdy;
 
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.annotations.Test;
@@ -19,8 +20,8 @@ public class FPDYCX {
 
     @Test
     public void fpdycx() throws IOException, NoSuchAlgorithmException {
-        String body = body("91320594346148467C","","iq9jvx6zsdb1jwhmrvhtpswr3vgdxf9w");
-        RequestInterface.requestInteface(body, InterfaceNum.TEST);
+        String body = body(BasicParameters.nsrsbh,"","2020072214140459643744");
+        RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 
     public String body(String shnsrsbh,String jsbh,String cxtj){

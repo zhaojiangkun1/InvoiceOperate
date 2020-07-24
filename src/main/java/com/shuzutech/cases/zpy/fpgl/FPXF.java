@@ -1,4 +1,4 @@
-package com.shuzutech.cases.fpgl;
+package com.shuzutech.cases.zpy.fpgl;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.model.RequestInterface;

@@ -1,4 +1,4 @@
-package com.shuzutech.cases.spgl;
+package com.shuzutech.cases.zpy.spgl;
 
 import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;

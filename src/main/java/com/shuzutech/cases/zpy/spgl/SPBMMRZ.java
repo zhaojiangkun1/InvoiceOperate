@@ -1,5 +1,6 @@
-package com.shuzutech.cases.spgl;
+package com.shuzutech.cases.zpy.spgl;
 
+import com.shuzutech.bean.BasicParameters;
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
 import org.testng.Assert;
@@ -18,7 +19,7 @@ public class SPBMMRZ {
      */
     @Test
     public void spbmmrz() throws IOException, NoSuchAlgorithmException {
-        String body = body("107020201010000000001","","110101201707010057");
+        String body = body("107020201010000000001","", BasicParameters.nsrsbh);
         int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
         Assert.assertEquals(code,0);
     }

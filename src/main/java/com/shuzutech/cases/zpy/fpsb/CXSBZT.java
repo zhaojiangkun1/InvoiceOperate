@@ -1,12 +1,15 @@
-package com.shuzutech.cases.fpsb;
+package com.shuzutech.cases.zpy.fpsb;
 
 import com.shuzutech.bean.BasicParameters;
+import com.shuzutech.model.RequestBody;
 import com.shuzutech.model.RequestInterface;
+import com.shuzutech.model.ZpyInputManagement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
 
 public class CXSBZT {
     /**
@@ -15,22 +18,23 @@ public class CXSBZT {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
+    HashMap<String,String> map = new HashMap<>();
     @Test(groups = {"查询设备状态"},description = "纳税人识别号为空，根据机身编号查设备状态")
     public void byJsbhCxsbzt() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.jsbh,"");
+        map.put("jsbh",BasicParameters.jsbh);
+        map.put("nsrsbh","");
+        String body = RequestBody.getRequestBody("CXSBZT", ZpyInputManagement.cxsbzt(map));
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
     @Test(groups = {"查询设备状态"},description = "机身编号为空，根据纳税人识别号查询设备状态")
     public void byNsrsbhCxsbzt() throws IOException, NoSuchAlgorithmException {
-        String body = body("",BasicParameters.nsrsbh);
+        map.put("jsbh","");
+        map.put("nsrsbh",BasicParameters.nsrsbh);
+        String body = RequestBody.getRequestBody("CXSBZT",ZpyInputManagement.cxsbzt(map));
         int code = RequestInterface.requestInteface(body,BasicParameters.num);
         Assert.assertEquals(code,0);
     }
 
-    public String body(String jsbh,String nsrsbh){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"CXSBZT\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
-        return body;
-    }
 }
