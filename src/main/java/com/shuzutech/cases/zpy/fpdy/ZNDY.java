@@ -20,24 +20,26 @@ public class ZNDY {
      * 91320594MA1MECA285
      * 根据发票请求流水号打印
      * 智能打印，对于在PC助手上开具发票，电脑连接平推打印机。
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
     private static String nsrsbh = BasicParameters.nsrsbh;
-    private static String dylx = "0";//0：发票打印，1：清单打印
-    private static String dyfs = "1";
+    private static String dylx = "1";//0：发票打印，1：清单打印
+    private static String dyfs = "2";
+    private static String printername = "";//DASCOM DS-660  可以指定打印机打印，要传对应打印机的名称
 
     @Test
     public void zndy() throws IOException, NoSuchAlgorithmException {
-        String body = body("","007","","050000000102","55504052");
-        RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        String body = body("", "007", "", "050000000102", "55504369");
+        RequestInterface.requestInteface(body, InterfaceNum.PRO);
     }
 
 
-    public String body(String jsbh,String fplxdm,String fpqqlsh,String fpdm,String fphm){
+    public String body(String jsbh, String fplxdm, String fpqqlsh, String fpdm, String fphm) {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"ZNDY\"><body><input><jsbh>"
-                +jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+fplxdm+"</fplxdm><fpqqlsh>"+fpqqlsh+"</fpqqlsh><fpdm>"+fpdm+"</fpdm><fphm>"
-                +fphm+"</fphm><dylx>"+dylx+"</dylx><dyfs>"+dyfs+"</dyfs><printername></printername></input></body></business>";
+                + jsbh + "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh><fplxdm>" + fplxdm + "</fplxdm><fpqqlsh>" + fpqqlsh + "</fpqqlsh><fpdm>" + fpdm + "</fpdm><fphm>"
+                + fphm + "</fphm><dylx>" + dylx + "</dylx><dyfs>" + dyfs + "</dyfs><printername>"+printername+"</printername></input></body></business>";
         return body;
     }
 }

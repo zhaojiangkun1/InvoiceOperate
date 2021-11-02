@@ -18,13 +18,13 @@ public class FPLGXXTBCX {
         RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"FPLGXXTBCX\">\n" +
                 "<body>\n" +
                 "<input>\n" +
-                "\t<jsbh>"+jsbh+"</jsbh>\n" +
-                "\t<nsrsbh>"+nsrsbh+"</nsrsbh>\n"+
+                "\t<jsbh>" + jsbh + "</jsbh>\n" +
+                "\t<nsrsbh>" + nsrsbh + "</nsrsbh>\n" +
                 "</input>\n" +
                 "</body>\n" +
                 "</business>\n";

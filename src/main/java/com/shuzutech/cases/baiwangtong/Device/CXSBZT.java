@@ -17,24 +17,30 @@ public class CXSBZT {
     private static String nsrsbh = BasicParameters.bwt_nsrsbh;
     private static InterfaceNum num = BasicParameters.bwt_num;
 
-    HashMap<String,String> map = new HashMap<>();
+    HashMap<String, String> map = new HashMap<>();
 
-    @Test(groups = {"查询设备状态"},description = "根据开票终端标识去查询设备状态")
+    /**
+     * 新接口文档，无此接口说明，但是可以调用
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+
+    @Test(groups = {"查询设备状态"}, description = "根据开票终端标识去查询设备状态")
     public void byKpzdbsCxsbzt() throws IOException, NoSuchAlgorithmException {
-        map.put("kpzdbs",kpzdbs);
-        map.put("nsrsbh","");
+        map.put("kpzdbs", kpzdbs);
+        map.put("nsrsbh", "");
         String body = RequestBody.getRequestBody("CXSBZT", ZpyInputManagement.cxsbzt(map));
         int code = RequestInterface.requestInteface(body, num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
-    @Test(groups = {"查询设备状态"},description = "根据纳税人识别号查询设备状态")
+    @Test(groups = {"查询设备状态"}, description = "根据纳税人识别号查询设备状态")
     public void byNsrsbhCxsbzt() throws IOException, NoSuchAlgorithmException {
-        map.put("nsrsbh",nsrsbh);
-        map.put("kpzdbs","");
-        String body = RequestBody.getRequestBody("CXSBZT",ZpyInputManagement.cxsbzt(map));
+        map.put("nsrsbh", nsrsbh);
+        map.put("kpzdbs", "");
+        String body = RequestBody.getRequestBody("CXSBZT", ZpyInputManagement.cxsbzt(map));
         int code = RequestInterface.requestInteface(body, num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
 }

@@ -2,21 +2,22 @@ package com.shuzutech.model;
 
 import com.shuzutech.bean.BasicParameters;
 import org.jdom.Element;
+
 import java.util.HashMap;
 
 public class CommodityCodeManagement {
     public static Element input = new Element("input");
 
-    public static Element ssbmqqInput(String bh){
+    public static Element ssbmqqInput(String bh) {
         Element bbh = new Element("bbh");
         input.addContent(bbh.setText(bh));
         return input;
     }
 
-    public static Element spbmscAndSpbmmrzInput(HashMap<String,String>... maps){
-        HashMap<String,String> map = new HashMap<>();
+    public static Element spbmscAndSpbmmrzInput(HashMap<String, String>... maps) {
+        HashMap<String, String> map = new HashMap<>();
         if (maps.length == 1)
-            map=maps[0];
+            map = maps[0];
         Element bm = new Element("bm");
         Element kpzdbs = new Element("kpzdbs");
         Element nsrsbh = new Element("nsrsbh");
@@ -29,10 +30,10 @@ public class CommodityCodeManagement {
         return input;
     }
 
-    public static Element spbmInput(HashMap<String, String>... maps){
-        HashMap<String,String> map = new HashMap<>();
+    public static Element spbmInput(HashMap<String, String>... maps) {
+        HashMap<String, String> map = new HashMap<>();
         if (maps.length == 1)
-            map=maps[0];
+            map = maps[0];
         Element nsrsbh = new Element("nsrsbh");
         Element kpzdbs = new Element("kpzdbs");
         Element whbz = new Element("whbz");
@@ -46,9 +47,9 @@ public class CommodityCodeManagement {
     }
 
     public static Element spbmszInput(HashMap<String, String>... maps) {
-        HashMap<String,String> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();
         if (maps.length == 1)
-            map=maps[0];
+            map = maps[0];
         Element kpzdbs = new Element("kpzdbs");
         input.addContent(kpzdbs.setText(BasicParameters.bwt_kpzdbs));
 

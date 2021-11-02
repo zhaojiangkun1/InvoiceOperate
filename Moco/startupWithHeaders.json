@@ -1,23 +1,23 @@
 [
   {
-    "description":"这是一个带headers信息的post请求",
-    "request":{
-      "uri":"/post/with/headers",
-      "method":"post",
-      "headers":{
-        "Content-Type":"application/json",
-        "Date":"2019-10-09 10:04:36",
-        "appName":"Message"
+    "description": "这是一个带headers信息的post请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "2019-10-09 10:04:36",
+        "appName": "Message"
       },
-      "json":{
-        "name":"wanglaosi",
-        "sex":"woman"
+      "json": {
+        "name": "wanglaosi",
+        "sex": "woman"
       }
     },
-    "response":{
-      "json":{
-        "wanglaosi":"success",
-        "status":"1"
+    "response": {
+      "json": {
+        "wanglaosi": "success",
+        "status": "1"
       }
     }
   }

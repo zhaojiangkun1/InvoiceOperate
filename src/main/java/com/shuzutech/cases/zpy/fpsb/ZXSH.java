@@ -2,6 +2,7 @@ package com.shuzutech.cases.zpy.fpsb;
 
 import com.shuzutech.config.InterfaceNum;
 import com.shuzutech.model.RequestInterface;
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,6 +16,7 @@ public class ZXSH {
 
     /**
      * 这个用于占用的额度的注销，暂时不在自动化之列
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
@@ -24,12 +26,17 @@ public class ZXSH {
          * 业务注销接口，用于占用额度的税号注销
          */
         String body = body();
-        int code = RequestInterface.requestInteface(body, InterfaceNum.TEST);
-        Assert.assertEquals(code,0);
+        int code = RequestInterface.requestInteface(body, InterfaceNum.DEV);
+        Assert.assertEquals(code, 0);
     }
 
-    private String body(){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"ZXSH\"><body><input><nsrsbh>"+nsrsbh+"</nsrsbh><skph>"+skph+"</skph><cancelTime>"+cancelTime+"</cancelTime></input></body></business>";
+    private String body() {
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"ZXSH\"><body><input><nsrsbh>" + nsrsbh + "</nsrsbh><skph>" + skph + "</skph><cancelTime>" + cancelTime + "</cancelTime></input></body></business>";
         return body;
+    }
+
+    @Test
+    public void test1(){
+        System.out.println(body());
     }
 }

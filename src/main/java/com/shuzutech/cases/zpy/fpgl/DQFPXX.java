@@ -91,7 +91,7 @@ public class DQFPXX {
     public void byNsrsbhDqfpxx() throws IOException, NoSuchAlgorithmException {
         map.put("jsbh", "");
         map.put("nsrsbh", BasicParameters.nsrsbh);
-        map.put("fplxdm", "004");
+        map.put("fplxdm", "007");
         String body = RequestBody.getRequestBody("DQFPXX", ZpyInputManagement.dqfpxx(map));
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code, 0);

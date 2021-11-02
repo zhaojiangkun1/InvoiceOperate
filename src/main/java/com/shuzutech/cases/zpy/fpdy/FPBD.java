@@ -17,6 +17,7 @@ public class FPBD {
      * 110101201707010041
      * 91320594346148467C
      * 91320191MA1ML4CL25~~661921253676
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
@@ -25,19 +26,20 @@ public class FPBD {
 
     /**
      * 尤其要关注一税号多盘情况，如果是一税号多盘，看看有没有问题
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
     @Test(groups = {"发票补打"})
     public void fpbd() throws IOException, NoSuchAlgorithmException {
-        String body = body("","007","050000000102","55504052");
+        String body = body("", "007", "050000000102", "55504250");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
-    public String body(String jsbh,String fplxdm,String fpdm,String fphm){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPBD\"><body><input><jsbh>"+jsbh+
-                "</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><fplxdm>"+fplxdm+"</fplxdm><fpdm>"+fpdm+"</fpdm><fphm>"+fphm+"</fphm></input></body></business>";
+    public String body(String jsbh, String fplxdm, String fpdm, String fphm) {
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPBD\"><body><input><jsbh>" + jsbh +
+                "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh><fplxdm>" + fplxdm + "</fplxdm><fpdm>" + fpdm + "</fpdm><fphm>" + fphm + "</fphm></input></body></business>";
         return body;
     }
 }

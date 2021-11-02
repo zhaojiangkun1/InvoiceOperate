@@ -10,19 +10,20 @@ import java.security.NoSuchAlgorithmException;
 public class FPWSGPLR {
 
     private static String nsrsbh = "110101201707010057";
+
     @Test
     public void fpwsgplr() throws IOException, NoSuchAlgorithmException {
         String body = body();
         RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"FPWSGPLR\">\n" +
                 "\t<body>\n" +
                 "\t\t<input>\n" +
                 "\t\t\t<jsbh></jsbh>\n" +
-                "\t\t\t<nsrsbh>"+nsrsbh+"</nsrsbh>"+
+                "\t\t\t<nsrsbh>" + nsrsbh + "</nsrsbh>" +
                 "\t\t\t<fpxl>\n" +
                 "\t\t\t\t<group xh=\"1\">\n" +
                 "\t\t\t\t\t<fplx_dm>007</fplx_dm>\n" +

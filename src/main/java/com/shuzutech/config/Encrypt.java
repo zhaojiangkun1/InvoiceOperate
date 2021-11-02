@@ -59,10 +59,8 @@ public class Encrypt {
     /**
      * Decrypt text using private key.
      *
-     * @param text
-     *          :encrypted text
-     * @param key
-     *          :The private key
+     * @param text :encrypted text
+     * @param key  :The private key
      * @return plain text
      */
     public static String rsaDecrypt(byte[] text, PrivateKey key) {
@@ -81,8 +79,8 @@ public class Encrypt {
 
     }
 
-    public static byte[] rsaSign(String data,PrivateKey privateKey){
-        Signature signature ;
+    public static byte[] rsaSign(String data, PrivateKey privateKey) {
+        Signature signature;
         try {
             signature = Signature.getInstance("SHA1withRSA", "BC");
             signature.initSign(privateKey);
@@ -95,9 +93,9 @@ public class Encrypt {
         return null;
     }
 
-    public static boolean rsaCheckSign(String data,byte[] signData,PublicKey publicKey){
+    public static boolean rsaCheckSign(String data, byte[] signData, PublicKey publicKey) {
 
-        if(data == null){
+        if (data == null) {
             return false;
         }
 
@@ -113,14 +111,14 @@ public class Encrypt {
         return false;
     }
 
-    public static byte[] base64Decode(String encode){
+    public static byte[] base64Decode(String encode) {
 
         Base64 decoder = new Base64();
         byte[] b = decoder.decode(encode.getBytes());
         return b;
     }
 
-    public static PublicKey StringtoPublicKey(String key){
+    public static PublicKey StringtoPublicKey(String key) {
         byte[] publicBytes = Base64.decodeBase64(key.getBytes());
         X509EncodedKeySpec keySpec = new X509EncodedKeySpec(publicBytes);
         KeyFactory keyFactory;
@@ -134,7 +132,7 @@ public class Encrypt {
         return pubKey;
     }
 
-    public static PrivateKey StringtoPrivateKey(String key){
+    public static PrivateKey StringtoPrivateKey(String key) {
         byte[] publicBytes = Base64.decodeBase64(key.getBytes());
         PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(publicBytes);
         KeyFactory keyFactory;
@@ -148,8 +146,7 @@ public class Encrypt {
         return priKey;
     }
 
-    private static  SecretKeySpec aesSetKey(String myKey)
-    {
+    private static SecretKeySpec aesSetKey(String myKey) {
         byte[] key;
         SecretKeySpec secretKey;
         //MessageDigest sha;
@@ -171,24 +168,22 @@ public class Encrypt {
     }
 
     /**
-     *加密方法，调这个方法
+     * 加密方法，调这个方法
+     *
      * @param strToEncrypt
      * @param secret
      * @return
      */
-    public static String aesEncrypt(String strToEncrypt, String secret)
-    {
-        try
-        {
+    public static String aesEncrypt(String strToEncrypt, String secret) {
+        try {
             SecretKeySpec secretKey = aesSetKey(secret);
+//            System.out.println("SecretKey:"+secretKey);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
 
             return new String(Base64.encodeBase64(cipher.doFinal(strToEncrypt.getBytes("UTF-8"))));
-            		//Base64.encodeBase64String(cipher.doFinal(strToEncrypt.getBytes("UTF-8")));
-        }
-        catch (Exception e)
-        {
+            //Base64.encodeBase64String(cipher.doFinal(strToEncrypt.getBytes("UTF-8")));
+        } catch (Exception e) {
             System.out.println("Error while encrypting: " + e.toString());
         }
         return null;
@@ -196,64 +191,52 @@ public class Encrypt {
 
 
     /**
-     *对文件的内容进行加密时优先使用该方法
+     * 对文件的内容进行加密时优先使用该方法
+     *
      * @param bytes
      * @param secret
      * @return
      */
-    public static byte[] aesEncryptBytes(byte[] bytes, String secret)
-    {
-        try
-        {
+    public static byte[] aesEncryptBytes(byte[] bytes, String secret) {
+        try {
             SecretKeySpec secretKey = aesSetKey(secret);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
 
             return Base64.encodeBase64(cipher.doFinal(bytes));
-            		//Base64.encodeBase64String(cipher.doFinal(strToEncrypt.getBytes("UTF-8")));
-        }
-        catch (Exception e)
-        {
+            //Base64.encodeBase64String(cipher.doFinal(strToEncrypt.getBytes("UTF-8")));
+        } catch (Exception e) {
             System.out.println("Error while encrypting: " + e.toString());
         }
         return null;
     }
 
     /**
-     *
      * @param strToDecrypt
      * @param secret
      * @return
      * @deprecated
      */
-    public static String aesDecrypt(byte[] strToDecrypt, String secret)
-    {
-        try
-        {
+    public static String aesDecrypt(byte[] strToDecrypt, String secret) {
+        try {
             SecretKeySpec secretKey = aesSetKey(secret);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
             cipher.init(Cipher.DECRYPT_MODE, secretKey);
             byte[] tmp = cipher.doFinal(strToDecrypt);
-            return new String(tmp,"utf-8");
-        }
-        catch (Exception e)
-        {
+            return new String(tmp, "utf-8");
+        } catch (Exception e) {
             System.out.println("Error while decrypting: " + e.toString());
         }
         return null;
     }
 
-    public static byte[] aesDecryptBytes(byte[] strToDecrypt, String secret)
-    {
-        try
-        {
+    public static byte[] aesDecryptBytes(byte[] strToDecrypt, String secret) {
+        try {
             SecretKeySpec secretKey = aesSetKey(secret);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
             cipher.init(Cipher.DECRYPT_MODE, secretKey);
             return cipher.doFinal(strToDecrypt);
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println("Error while decrypting: " + e.toString());
         }
         return null;

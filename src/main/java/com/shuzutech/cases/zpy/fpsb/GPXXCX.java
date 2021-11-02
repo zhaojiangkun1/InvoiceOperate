@@ -26,50 +26,58 @@ public class GPXXCX {
     private static String qtzd = BasicParameters.skph;
     private static String fpzt = "1";
 
-    @Test(groups = {"购票信息查询"},description = "机身编号和纳税人识别号同时为空，查询购票信息")
+    @Test(groups = {"购票信息查询"}, description = "机身编号和纳税人识别号同时为空，查询购票信息")
     public void jsbhAndNsrsbhIsNullGpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body("","026","",fpzt,"","","");
+        String body = body("", "026", "", fpzt, "", "", "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,1000009);//纳税人识别号对应商户不存在
+        Assert.assertEquals(code, 1000009);//纳税人识别号对应商户不存在
     }
 
-    @Test(groups = {"购票信息查询"},description = "机身编号为空，根据纳税人识别号查询购票信息")
+    @Test(groups = {"购票信息查询"}, description = "机身编号为空，根据纳税人识别号查询购票信息")
     public void byNsrsbhGpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.jsbh,"026","2",fpzt,nsrsbh,qtzd,"");
+        String body = body("", "026", "2", fpzt, nsrsbh, qtzd, "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
-    }
-    @Test(groups = {"购票信息查询"},description = "纳税人识别号为空，根据机身编号查询购票信息")
-    public void byJsbhGpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.jsbh,"026","2",fpzt,"",qtzd,"");
-        int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,300000);
+        Assert.assertEquals(code, 0);
     }
 
-    @Test(groups = {"购票信息查询"},description = "查询普票的购票信息")
-    public void queryPuPiaoGpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.jsbh,"007","2",fpzt,nsrsbh,qtzd,"");
+    /**
+     * 旋极的纳税人识别号必填
+     *
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
+    @Test(groups = {"购票信息查询"}, description = "纳税人识别号为空，根据机身编号查询购票信息")
+    public void byJsbhGpxxcx() throws IOException, NoSuchAlgorithmException {
+        String body = body(BasicParameters.jsbh, "026", "2", fpzt, "", qtzd, "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
+    }
+
+    @Test(groups = {"购票信息查询"}, description = "查询普票的购票信息")
+    public void queryPuPiaoGpxxcx() throws IOException, NoSuchAlgorithmException {
+        String body = body(BasicParameters.jsbh, "007", "2", fpzt, nsrsbh, qtzd, "");
+        int code = RequestInterface.requestInteface(body, BasicParameters.num);
+        Assert.assertEquals(code, 0);
     }
 
     /**
      * 旋极航信  航信盘插在电脑打开云票助手，GPXXCX只能查到dqfpdm和dqfphm，其它信息都无返回
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    @Test(groups = {"购票信息查询"},description = "查询专票的购票信息")
+    @Test(groups = {"购票信息查询"}, description = "查询专票的购票信息")
     public void queryZhuanPiaoGpxxcx() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.jsbh,"004","2",fpzt,nsrsbh,qtzd,"");
+        String body = body(BasicParameters.jsbh, "004", "2", fpzt, nsrsbh, qtzd, "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
 
-    public String body(String jsbh,String fplxdm,String sblx,String fpzt,String nsrsbh,String qtzd,String lgqxx){
+    public String body(String jsbh, String fplxdm, String sblx, String fpzt, String nsrsbh, String qtzd, String lgqxx) {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"GPXXCX\"><body><input><jsbh>"
-                +jsbh+"</jsbh><fplxdm>"+fplxdm+"</fplxdm><sblx>"+sblx+"</sblx><fpzt>"+fpzt+"</fpzt><nsrsbh>"+nsrsbh
-                +"</nsrsbh><qtzd>"+qtzd+"</qtzd><lgqxx>"+lgqxx+"</lgqxx></input></body></business>";
+                + jsbh + "</jsbh><fplxdm>" + fplxdm + "</fplxdm><sblx>" + sblx + "</sblx><fpzt>" + fpzt + "</fpzt><nsrsbh>" + nsrsbh
+                + "</nsrsbh><qtzd>" + qtzd + "</qtzd><lgqxx>" + lgqxx + "</lgqxx></input></body></business>";
         return body;
     }
 }

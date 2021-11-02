@@ -21,13 +21,13 @@ public class CXSL {
         RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"CXSL\">\n" +
                 "\t<body>\n" +
                 "\t\t<input>\n" +
-                "\t\t\t<jsbh>"+jsbh+"</jsbh>\n" +
-                "\t\t\t<nsrsbh>"+nsrsbh+"</nsrsbh>\n"+
+                "\t\t\t<jsbh>" + jsbh + "</jsbh>\n" +
+                "\t\t\t<nsrsbh>" + nsrsbh + "</nsrsbh>\n" +
                 "\t\t\t<fplxdm>007</fplxdm>\n" +
                 "\t\t\t<slxh>11010120170701005720191029174369</slxh>\n" +
                 "\t\t</input>\n" +

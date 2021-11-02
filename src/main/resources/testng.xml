@@ -5,14 +5,17 @@
         <groups>
             <run>
                 <include name="查询设备状态"/>
+                <include name="发票作废"/>
                 <include name="购票信息查询"/>
                 <include name="监控数据查询"/>
                 <include name="终端查询"/>
                 <include name="统计信息查询"/>
                 <include name="当前发票信息"/>
-                <exclude name="发票查询"/>
+                <include name="发票查询"/>
                 <include name="发票修复"/>
-                <exclude name="发票作废"/>
+                <include name="企业信息设置"/>
+                <include name="企业信息查询"/>
+                <include name="企业抬头信息联想"/>
             </run>
         </groups>
         <classes>

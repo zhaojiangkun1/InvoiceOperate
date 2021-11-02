@@ -1,31 +1,31 @@
 [
   {
-    "description":"这是一个不带参数的post请求",
-    "request":{
-      "uri":"/post",
-      "method":"post"
+    "description": "这是一个不带参数的post请求",
+    "request": {
+      "uri": "/post",
+      "method": "post"
     },
-    "response":{
-      "text":"这是一个不带参数的post请求",
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+    "response": {
+      "text": "这是一个不带参数的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       }
     }
   },
   {
-    "description":"这是一个带参数的post请求",
-    "request":{
-      "uri":"/postwithparams",
-      "method":"post",
-      "forms":{
-        "name":"huhansan",
-        "age":"18"
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparams",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
       }
     },
-    "response":{
-      "text":"这是一个带参数的post请求，当你看到这个返回消息，就代表已经访问成功了",
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+    "response": {
+      "text": "这是一个带参数的post请求，当你看到这个返回消息，就代表已经访问成功了",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       }
     }
   }

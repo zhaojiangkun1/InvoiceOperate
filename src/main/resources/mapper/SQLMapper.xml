@@ -3,6 +3,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="获取appInfo">
+<!--    id：要和持久层接口的方法名相同，否则找不到映射方法
+        resultType：指定结果集的类型
+        resultMap：指定结果集
+        parameterType：指定传入参数的类型。如果传入的是自定义的类需要写类的全限定类名
+        parameterMap：指定传入参数-->
     <select id="getAppInfo" parameterType="Integer" resultType="com.shuzutech.bean.AppInfo">
         select * from appInfo where id = #{id};
     </select>

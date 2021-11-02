@@ -20,13 +20,13 @@ public class ZZPJSQR {
     }
 
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"ZZPJSQR\">\n" +
                 "\t<body>\n" +
                 "\t\t<input>\n" +
                 "\t\t\t<jsbh></jsbh>\n" +
-                "\t\t\t<nsrsbh>"+"110101201707010057"+"</nsrsbh>"+
+                "\t\t\t<nsrsbh>" + "110101201707010057" + "</nsrsbh>" +
                 "\t\t\t<slxh>110101201707010057201910292639</slxh>\n" +
                 "\t\t\t<fplxdm>007</fplxdm>\n" +
                 "\t\t\t<qrxx count=\"1\">\n" +

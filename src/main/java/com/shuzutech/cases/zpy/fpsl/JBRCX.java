@@ -15,12 +15,12 @@ public class JBRCX {
         /**
          * 经办人查询接口
          */
-        String body = body("026","","1");
+        String body = body("026", "", "1");
         RequestInterface.requestInteface(body, BasicParameters.num);
     }
 
-    public String body(String fplxdm,String jsbh,String flag){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"JBRCX\"><body><input><fplxdm>"+fplxdm+"</fplxdm><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh><flag>"+flag+"</flag></input></body></business>";
+    public String body(String fplxdm, String jsbh, String flag) {
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"JBRCX\"><body><input><fplxdm>" + fplxdm + "</fplxdm><jsbh>" + jsbh + "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh><flag>" + flag + "</flag></input></body></business>";
         return body;
     }
 

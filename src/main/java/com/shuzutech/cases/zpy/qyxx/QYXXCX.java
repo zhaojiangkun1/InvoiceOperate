@@ -21,22 +21,23 @@ public class QYXXCX {
      * 110101201707010057~~499000152456
      * 南京市雨花台区软件大道168号润和创智中心3栋309室18061495423
      * 南京市工商银行3201000323459889
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
     private static String nsrsbh = BasicParameters.nsrsbh;
     private static String jsbh = "";
 
-    @Test(groups = {"企业信息查询"},description = "企业信息查询")
+    @Test(groups = {"企业信息查询"}, description = "企业信息查询")
     public void qyxxcx() throws IOException, NoSuchAlgorithmException {
         String body = body();
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
 
-    public String body(){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"QYXXCX\"><body><input><jsbh>"+jsbh+"</jsbh><nsrsbh>"+nsrsbh+"</nsrsbh></input></body></business>";
+    public String body() {
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"QYXXCX\"><body><input><jsbh>" + jsbh + "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh></input></body></business>";
         return body;
     }
 

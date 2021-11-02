@@ -21,14 +21,14 @@ public class SPBM {
 
     @Test(groups = {"获取商品列表"})
     public void getSpList() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.nsrsbh,"","");
+        String body = body(BasicParameters.nsrsbh, "", "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
-        Assert.assertEquals(code,0);
+        Assert.assertEquals(code, 0);
     }
 
 
-    public String body(String nsrsbh,String jsbh,String whbz){
-        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"SPBM\"><body><input><nsrsbh>"+nsrsbh+"</nsrsbh><jsbh>"+jsbh+"</jsbh><whbz>"+whbz+"</whbz></input></body></business>";
+    public String body(String nsrsbh, String jsbh, String whbz) {
+        String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"SPBM\"><body><input><nsrsbh>" + nsrsbh + "</nsrsbh><jsbh>" + jsbh + "</jsbh><whbz>" + whbz + "</whbz></input></body></business>";
         return body;
     }
 

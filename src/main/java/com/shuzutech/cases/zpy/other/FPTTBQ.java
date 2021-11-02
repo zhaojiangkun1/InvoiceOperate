@@ -11,6 +11,7 @@ public class FPTTBQ {
 
     /**
      * 用于纸质发票自助开具时，补充提交购方的发票抬头。
+     *
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
@@ -20,7 +21,7 @@ public class FPTTBQ {
         RequestInterface.requestInteface(body, InterfaceNum.TEST);
     }
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"FPTTBQ\">\n" +
                 "    <body>\n" +

@@ -15,22 +15,22 @@ public class UpdateAppInfo {
         AppInfo appInfo = new AppInfo();
         appInfo.setAccessToken(accessToken);
         appInfo.setUpdateTime(date);
-        if (num == InterfaceNum.DEV){
+        if (num == InterfaceNum.DEV) {
             appInfo.setId(3);
         }
-        if (num == InterfaceNum.PRO){
+        if (num == InterfaceNum.PRO) {
             appInfo.setId(1);
         }
-        if (num == InterfaceNum.TEST){
+        if (num == InterfaceNum.TEST) {
             appInfo.setId(2);
         }
-        if (num == InterfaceNum.DEV1){
+        if (num == InterfaceNum.DEV1) {
             appInfo.setId(6);
         }
-        if (num == InterfaceNum.TEST1){
+        if (num == InterfaceNum.TEST1) {
             appInfo.setId(4);
         }
-        session.update("updateAppInfo",appInfo);
+        session.update("updateAppInfo", appInfo);
         session.commit();
     }
 

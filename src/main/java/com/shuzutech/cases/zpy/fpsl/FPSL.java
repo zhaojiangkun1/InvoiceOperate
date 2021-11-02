@@ -22,13 +22,13 @@ public class FPSL {
     }
     //证件类型zjlx 取值判断
 
-    public String body(){
+    public String body() {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<business id=\"FPSL\">\n" +
                 "\t<body>\n" +
                 "\t\t<input>\n" +
-                "\t\t\t<jsbh>"+jsbh+"</jsbh>\n" +
-                "\t\t\t<nsrsbh>"+nsrsbh+"</nsrsbh>\n"+
+                "\t\t\t<jsbh>" + jsbh + "</jsbh>\n" +
+                "\t\t\t<nsrsbh>" + nsrsbh + "</nsrsbh>\n" +
                 "\t\t\t<fplxdm>007</fplxdm>\n" +
                 "\t\t\t<fpzldm>0</fpzldm>\n" +
                 "\t\t\t<slsl>40</slsl>\n" +
