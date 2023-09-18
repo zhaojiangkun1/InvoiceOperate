@@ -21,7 +21,7 @@ public class SPBM {
 
     @Test(groups = {"获取商品列表"})
     public void getSpList() throws IOException, NoSuchAlgorithmException {
-        String body = body(BasicParameters.nsrsbh, "", "");
+        String body = body("91530100622706139D", "", "");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code, 0);
     }

@@ -15,8 +15,12 @@ import java.util.Date;
 
 public class RequestInterface {
 
-    public static int requestInteface(String body, InterfaceNum num) throws IOException, NoSuchAlgorithmException {
+    public static int requestInteface(String body, InterfaceNum num,String ... params) throws IOException, NoSuchAlgorithmException {
         String url = PostRequestAddr.postRequestAddr(num).getAddress();
+        if (params.length != 0) {
+            url = "http://47.103.25.205:10001/invoiceEx/zpy/commodity/aiCodingBatch";
+//            url = "https://paymgmt.shuzutech.com/invoiceEx/zpy/commodity/aiCodingBatch";
+        }
         System.out.println("本次POST请求的url:" + url);
         String accessToken = GetAccessToken.getToken(num);
 //        String accessToken = "069b4ad39f1c7ec5215a85a167536a40";
@@ -26,9 +30,14 @@ public class RequestInterface {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost(url);
         String contendMd5 = Md5.EncoderByMd5(body + date.toString() + accessToken);
+        System.out.println("md5:"+contendMd5);
         StringEntity entity = new StringEntity(body, "utf-8");
         entity.setContentEncoding("UTF-8");
-        entity.setContentType("application/x-www-form-urlencoded");
+        if (params.length == 0) {
+            entity.setContentType("application/x-www-form-urlencoded");
+        }else {
+            entity.setContentType("application/json");
+        }
         post.setEntity(entity);
         if (num == InterfaceNum.DEV || num == InterfaceNum.PRO || num == InterfaceNum.TEST || num == InterfaceNum.DEV1 ||
                 num == InterfaceNum.TEST1 || num.toString().contains("BAIWANGTONG") || num == InterfaceNum.DEVCY) {

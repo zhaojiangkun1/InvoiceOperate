@@ -31,14 +31,14 @@ public class ZNDY {
 
     @Test
     public void zndy() throws IOException, NoSuchAlgorithmException {
-        String body = body("", "007", "", "050000000102", "55504369");
-        RequestInterface.requestInteface(body, InterfaceNum.PRO);
+        String body = body(BasicParameters.jsbh, "007", "", "033001850204", "22160007");
+        RequestInterface.requestInteface(body, InterfaceNum.DEV);
     }
 
 
     public String body(String jsbh, String fplxdm, String fpqqlsh, String fpdm, String fphm) {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"ZNDY\"><body><input><jsbh>"
-                + jsbh + "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh><fplxdm>" + fplxdm + "</fplxdm><fpqqlsh>" + fpqqlsh + "</fpqqlsh><fpdm>" + fpdm + "</fpdm><fphm>"
+                + jsbh + "</jsbh><nsrsbh>" + "" + "</nsrsbh><fplxdm>" + fplxdm + "</fplxdm><fpqqlsh>" + fpqqlsh + "</fpqqlsh><fpdm>" + fpdm + "</fpdm><fphm>"
                 + fphm + "</fphm><dylx>" + dylx + "</dylx><dyfs>" + dyfs + "</dyfs><printername>"+printername+"</printername></input></body></business>";
         return body;
     }

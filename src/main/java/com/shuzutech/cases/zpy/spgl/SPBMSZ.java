@@ -34,7 +34,7 @@ public class SPBMSZ {
                 "            <nsrsbh></nsrsbh>\n" +
                 "            <bm></bm>\n" +
                 "            <pid>1010101990000000000</pid>\n" +
-                "            <mc>稻谷</mc>\n" +
+                "            <mc>稻谷16</mc>\n" +
                 "            <spbmjc>谷物</spbmjc>\n" +
                 "            <sm></sm>\n" +
                 "            <zzstsgl></zzstsgl>\n" +
@@ -59,6 +59,7 @@ public class SPBMSZ {
                 "            <hsbz></hsbz>\n" +
                 "            <zzssl>0.09</zzssl>\n" +
                 "            <hgpm></hgpm>\n" +
+                "<zxbm></zxbm>"+
                 "            <gmtjdm></gmtjdm>\n" +
                 "        </input>\n" +
                 "    </body>\n" +

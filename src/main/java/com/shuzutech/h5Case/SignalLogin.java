@@ -46,6 +46,13 @@ public class SignalLogin {
         System.out.println(url);
     }
 
+    @Test
+    public void test123() throws UnsupportedEncodingException {
+        String encryptMsg = "8k5H8Zbwl0dmuzvVCuow2kP/CvPmr4IHFdz0e0eOvxi8oW67N/1MyvLPoFe7AJBI4jntCEqkfX+nfz8j3WSvZw==";
+        String encryptMsg_urlEncode = URLEncoder.encode(encryptMsg, "UTF-8");
+        System.out.println(encryptMsg_urlEncode);
+    }
+
 
     public static void main(String[] args){
         String encryptMsg_urlEncode = "";
@@ -63,16 +70,50 @@ public class SignalLogin {
         String url = PublicInvoiceRequest.invoiceRequest(uri, appId, encryptMsg_urlEncode);
         System.out.println(url);
     }
+
+    @Test
+    public void test2() throws UnsupportedEncodingException {
+        String urlEncode = "MGZmMjZkMDUzNDJlMTZkODllODJmZjI2YjkwYzEwM2Q=";
+        System.out.println(URLEncoder.encode(urlEncode, "UTF-8"));
+    }
+
     @Test
     public void test1(){
         String encryptMsg_urlEncode = "";
-        String msg = "y/QJapGPZxZdJEVBy3dCnPQ6bLM+BQ24ldRMSEzUKCu8svrYbVAYt0cLdN58yAV7";
+        String msg = "ESHPAW9Z7wn956%2FMWVTs3MlxqOFVqnk%2FNnRCE9egI65MjZlmgRgllT9R%2BZLYpLRm";
         try {
           encryptMsg_urlEncode = URLEncoder.encode(msg, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         System.out.println(encryptMsg_urlEncode);
+        String PrivateKey = ("MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDxG4CRbxJRE6vp\n" +
+                "9XWowZ4DAyN/nBwQTZZWkcNZbwZ/Wbv4k3CC/I0Skly9DTWYL8mxG1Bg/Yd9KlSm\n" +
+                "DjOK1yuyfGZAw+2K0I+ZVTRA6loQNiJukcaHHKQOtJwqjtEQsItk4r3LMb7hK/Ic\n" +
+                "KCCaxXr9lbr4v+sN36O0xaxszMb30+WBhclYlvlMzXtTV/d1RffoI7Jc0ydwTcbr\n" +
+                "xgDBIdYo/vQ67bApF+dJN8M+fNbdQCZmtHQa7Q+hpfHZEB02Vj2w2lTO2liLr6eh\n" +
+                "W3ks/ZcOmYWnzyQ6Kcmcpy506YLuvTqg711K9qWOesPorzfKdHh+hgDv1LkUbTPK\n" +
+                "PjppuELVAgMBAAECggEAVmsnH/mRtSG54reqHnyXaDj9xkVsAaPtmMXSIQIccBT3\n" +
+                "vNcL4scmwVtYhiJv7UZjomlJ3BnDMGe1w3cfnkoVTXotJFWVlMXAUpMpkYLuGRVu\n" +
+                "LfduEwt++g5eUxqxcKv2qohiwqvn4MlhlBoF5bOWq8G5LGONmoFoKekYLj8Pqc/F\n" +
+                "NJdfqFum9z4GtxTrrGzKxibIduT2rNOH8xBDI6tP2CUerAAccYM7+66GWj+xo4NE\n" +
+                "29vLVjntCO06YZhJgHqtTMIZrT17yvzpb3wvrrf7+K0yjUKnM9alH2j4ScLBfboo\n" +
+                "L/ddssxtvrgsGVc+6Ga28P6QQN7hpOGTl/BA1JyOgQKBgQD+Gz6MRHx2Y3XtcmKr\n" +
+                "H/1mEY7DtlhucBWQT5XJ1MgWRyG7bY5HFcy76ZF7nr/2TISSSWlC9u1hFlOMytaS\n" +
+                "4GQMWclWyBy+uth+IY5JgPOiIOYcB2+mvUEh6BBSAWFBHAcBYYSjlXMJZoClexwE\n" +
+                "iz2Ig4J0yAjbyy+IT0FkLJ6s0QKBgQDy53W6Uv53dWVDwi98k3Ep28vD+ewzMcLD\n" +
+                "6Q/0GIyKa95/vNeoLiwX1X9qjitX2DGPHFlvEHSQEDvuGmFDcfPfm/5Uab/g0twg\n" +
+                "iVo9kX6PgI2Pe2SbeX0JBrewoeHOKmGWtbYfimCe49eP/j7d5UlMGIKKyddNTQq/\n" +
+                "frHZNyJmxQKBgQDuSH4O6uoL2pjrYShFcGofHLfTr1qdtV2DRh4gdfhra6imKcYR\n" +
+                "ws+KJyzVz7gTLw3iYBTlRsizEkym6k7szJ8FNe0oA99wu6XoIW9cXiAZGOCvyAlb\n" +
+                "Qn2hXgxv2ftpIu8uzFOlUq/dUNGyXA+Z8zhwm2HqQOqNsauRF0EqvuzNAQKBgAJI\n" +
+                "eqrNrOaii9kfMiMRn7atAjVNXBL/HL2Kq0O4F1oVuXmp5L0H8hInR5NQ0sd4mL6n\n" +
+                "nY+VsALKpEWQqelgYNJxPOq+M7eBQ+Bqaha6D1557tqyZjev5KT5EzDt1JmDfHdW\n" +
+                "LegN/OqBab1Ivn6HcTDt6gwz6XoohzlVj4ZjJkehAoGAGsmYyfZon3W16VFAYutk\n" +
+                "JRjoCmUwewdKorL4xgY9lWk6iBXjGHDOguu0b/Dl7IsASTyzXf0OWp042y3jxZ3u\n" +
+                "iaQQHis/MIXUJ0zu847Vm3eNVh9J+s0Sn9r3xjQjVG9lqaTYlDGo46Li1CE8sULg\n" +
+                "iVDjCi7S71KdKsbSyqbWRc4=");
+        System.out.println(PrivateKey);
 
     }
 

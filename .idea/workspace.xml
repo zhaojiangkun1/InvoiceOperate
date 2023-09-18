@@ -1,124 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb7b4d18-6739-4fca-b909-6f5d292708ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/Md5String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/QYXXCX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/FPCY/FPCY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPPLCX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPTTBQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/SDFPSC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/WSCFPCX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/SignalLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/xuanji/Base64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/xuanji/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/WSCFPCX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/AIcodeBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/ToBeInvoiced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPBQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPCXYQSB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPHZTJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPSC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPXFCX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/YQSBZF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InvoiceOperter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InvoiceOperter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startup1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startup1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startupGet.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startupGet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startupPost.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startupPost.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startupWithCookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startupWithCookies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startupWithHeaders.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startupWithHeaders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/AppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/BasicParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/BasicParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/SaveAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/bean/SaveAddr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/CXSBZT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/CXSBZT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/Md5String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/Md5String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/GetTerminalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/GetTerminalInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/QYXXSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/QYXXSZ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/TaxControlEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/Device/TaxControlEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/DQFPXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/DQFPXX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/DZFPCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/DZFPCF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/FPCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/FPCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/GPXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/GPXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/TJXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/FPGL/TJXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMMRZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMMRZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMSC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMSC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/baiwangtong/SPBM/SPBMSZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPDYCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPDYCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPDYDATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPDYDATA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPQDDY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/FPQDDY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/YBJSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/YBJSZ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/ZNDY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpdy/ZNDY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/DQFPXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/DQFPXX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPPLCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPPLCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPXF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPXF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPZF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpgl/FPZF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/CXSBZT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/CXSBZT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/GPXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/GPXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/JKSJCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/JKSJCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/TJXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/TJXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/TermaryQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/TermaryQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/ZXSH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsb/ZXSH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/CXSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/CXSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPLGXXTBCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPLGXXTBCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPPLCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPPLCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSLZBXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSLZBXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSLZTCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPSLZTCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPWSGPLR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/FPWSGPLR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/JBRCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/JBRCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/ZZPJSQR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/ZZPJSQR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/WSCFPCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/fpsl/WSCFPCX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/other/DZFPCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/other/DZFPCF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/other/FPTTBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/other/FPTTBQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYTTXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYTTXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYXXCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYXXCX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYXXSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/qyxx/QYXXSZ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/AICODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/AICODE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMMRZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMMRZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMSC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMSC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMSZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SPBMSZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SSBMQQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/cases/zpy/spgl/SSBMQQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/Encrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/InterfaceNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/InterfaceNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/Md5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/config/Md5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/DmpZhengXin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/DmpZhengXin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/FaPiaoZiJian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/FaPiaoZiJian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/GetRequestAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/GetRequestAddr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5InvoiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5InvoiceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5MakeInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/H5MakeInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/InvoiceInto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/InvoiceInto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/PublicInvoiceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/PublicInvoiceRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/CommodityCodeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/CommodityCodeManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/GetAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/GetAccessToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/PostRequestAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/PostRequestAddr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/SignalLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/h5Case/SignalLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/RequestInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/SsbmRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/SsbmRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/UpdateAppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/UpdateAppInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/ZpyInputManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shuzutech/model/ZpyInputManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SQLMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ssbqq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ssbqq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InvoiceOperter.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/AppInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/BasicParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/BasicParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/SaveAddr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/bean/SaveAddr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/Md5String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/Md5String.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/CXSBZT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/CXSBZT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/GetTerminalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/GetTerminalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/QYXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/QYXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/QYXXSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/QYXXSZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/TaxControlEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/Device/TaxControlEquipment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/DQFPXX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/DQFPXX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/DZFPCF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/DZFPCF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/FPCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/FPCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/GPXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/GPXXCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/JKSJCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/JKSJCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/TJXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/FPGL/TJXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBM.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMMRZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMMRZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMSC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMSC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SPBMSZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SSBMQQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/baiwangtong/SPBM/SSBMQQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/FPCY/FPCY.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/FPCY/FPCY.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPBD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPDYCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPDYCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPDYDATA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPDYDATA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPQDDY.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/FPQDDY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/YBJSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/YBJSZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/ZNDY.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpdy/ZNDY.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/DQFPXX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/DQFPXX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPPLCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPPLCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPTTBQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPTTBQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPXF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPXF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPZF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpgl/FPZF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/CXSBZT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/CXSBZT.class" afterDir="false" />
@@ -127,65 +76,42 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/TJXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/TJXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/TermaryQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/TermaryQuery.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/ZXSH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsb/ZXSH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/CXSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/CXSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPLGXXTBCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPLGXXTBCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPPLCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPPLCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSLZBXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSLZBXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSLZTCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPSLZTCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPWSGPLR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/FPWSGPLR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/JBRCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/JBRCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/SDFPSC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/SDFPSC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/WSCFPCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/WSCFPCX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/ZZPJSQR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/fpsl/ZZPJSQR.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/other/DZFPCF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/other/DZFPCF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/other/FPTTBQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/other/FPTTBQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYTTXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYTTXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYXXCX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYXXCX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYXXSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/qyxx/QYXXSZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/AICODE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/AICODE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBM.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMMRZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMMRZ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMSC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMSC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMSZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SPBMSZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SSBMQQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/cases/zpy/spgl/SSBMQQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/config/Encrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/config/Encrypt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/config/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/config/InterfaceNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/config/InterfaceNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/config/Md5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/config/Md5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/DmpZhengXin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/DmpZhengXin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/FaPiaoZiJian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/FaPiaoZiJian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/GetRequestAddr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/GetRequestAddr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5InvoiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5InvoiceConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5MakeInvoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/H5MakeInvoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/InvoiceInto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/InvoiceInto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/CommodityCodeManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/CommodityCodeManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/PostRequestAddr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/PostRequestAddr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/PublicInvoiceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/PublicInvoiceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/SignalLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/h5Case/SignalLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/RequestInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shuzutech/model/ZpyInputManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shuzutech/model/ZpyInputManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SQLMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SQLMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ssbqq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ssbqq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/发票相关接口测试用例/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/发票相关接口测试用例/测试发票查询、发票补打等相关接口.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/发票相关接口测试用例/测试发票查询、发票补打等相关接口.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/发票相关接口测试用例/测试发票查询、发票补打等相关接口.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/发票相关接口测试用例/测试发票查询、发票补打等相关接口.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="InvoiceOperter" />
@@ -212,10 +138,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -228,9 +154,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shuzutech.cases.zpy.fpdy" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shuzutech.h5InvoiceCase" />
       <recent name="com.shuzutech.config" />
@@ -251,21 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TermaryQuery.termaryQuery">
-    <configuration name="SignalLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.SignalLogin" />
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="H5InvoiceConfig.test12" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.H5MakeInvoice.test1">
+    <configuration name="H5MakeInvoice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
@@ -274,43 +191,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.H5InvoiceConfig" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignalLogin.signalByAppLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.SignalLogin" />
-      <option name="METHOD_NAME" value="signalByAppLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignalLogin.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceOperter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.SignalLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.H5MakeInvoice" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -319,17 +200,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TermaryQuery.termaryQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalLogin.test123" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoiceOperter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shuzutech.cases.zpy.fpsb.*" />
+          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shuzutech.cases.zpy.fpsb" />
-      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.zpy.fpsb.TermaryQuery" />
-      <option name="METHOD_NAME" value="termaryQuery" />
+      <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.SignalLogin" />
+      <option name="METHOD_NAME" value="test123" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -337,23 +218,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.SignalLogin" />
-      <item itemvalue="TestNG.H5InvoiceConfig.test12" />
-      <item itemvalue="TestNG.SignalLogin.signalByAppLogin" />
-      <item itemvalue="TestNG.SignalLogin.test1" />
-      <item itemvalue="TestNG.TermaryQuery.termaryQuery" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.TermaryQuery.termaryQuery" />
-        <item itemvalue="TestNG.SignalLogin.test1" />
-        <item itemvalue="Application.SignalLogin" />
-        <item itemvalue="TestNG.SignalLogin.signalByAppLogin" />
-        <item itemvalue="TestNG.H5InvoiceConfig.test12" />
-      </list>
-    </recent_temporary>
+    <configuration name="SignalLogin.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzutech.h5Case.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuzutech.h5Case" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.h5Case.SignalLogin" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxControlEquipment.taxControlEquipment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzutech.cases.baiwangtong.Device.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuzutech.cases.baiwangtong.Device" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.baiwangtong.Device.TaxControlEquipment" />
+      <option name="METHOD_NAME" value="taxControlEquipment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxControlEquipment.testContentMd5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceOperter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuzutech.cases.baiwangtong.Device.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuzutech.cases.baiwangtong.Device" />
+      <option name="MAIN_CLASS_NAME" value="com.shuzutech.cases.baiwangtong.Device.TaxControlEquipment" />
+      <option name="METHOD_NAME" value="testContentMd5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -909,6 +829,167 @@
       <workItem from="1635388809448" duration="3092000" />
       <workItem from="1635393165625" duration="17000" />
       <workItem from="1635413729752" duration="669000" />
+      <workItem from="1635818324671" duration="1959000" />
+      <workItem from="1635831784040" duration="2920000" />
+      <workItem from="1635919046668" duration="1250000" />
+      <workItem from="1636017818586" duration="610000" />
+      <workItem from="1636077492126" duration="22000" />
+      <workItem from="1636351119598" duration="1240000" />
+      <workItem from="1636508328489" duration="2564000" />
+      <workItem from="1636685763807" duration="2649000" />
+      <workItem from="1637048654304" duration="933000" />
+      <workItem from="1637563409023" duration="1311000" />
+      <workItem from="1637571218634" duration="859000" />
+      <workItem from="1637731942243" duration="941000" />
+      <workItem from="1637743093230" duration="206000" />
+      <workItem from="1637745322836" duration="868000" />
+      <workItem from="1638164545773" duration="20000" />
+      <workItem from="1638170208998" duration="2030000" />
+      <workItem from="1638236895710" duration="1058000" />
+      <workItem from="1638244028656" duration="3116000" />
+      <workItem from="1638341401355" duration="3971000" />
+      <workItem from="1638433219053" duration="612000" />
+      <workItem from="1638502786918" duration="698000" />
+      <workItem from="1638848920582" duration="15000" />
+      <workItem from="1638857718269" duration="831000" />
+      <workItem from="1639362814993" duration="934000" />
+      <workItem from="1639982654903" duration="1882000" />
+      <workItem from="1640073785910" duration="20000" />
+      <workItem from="1640577116093" duration="3311000" />
+      <workItem from="1640671175665" duration="1290000" />
+      <workItem from="1640743442257" duration="17000" />
+      <workItem from="1641275460810" duration="2816000" />
+      <workItem from="1641448975312" duration="3218000" />
+      <workItem from="1641527137199" duration="4839000" />
+      <workItem from="1641778720073" duration="2145000" />
+      <workItem from="1641793352752" duration="814000" />
+      <workItem from="1641956146278" duration="41000" />
+      <workItem from="1642643792497" duration="50000" />
+      <workItem from="1642665888890" duration="333000" />
+      <workItem from="1642669631598" duration="1113000" />
+      <workItem from="1643005944886" duration="17000" />
+      <workItem from="1643096704475" duration="3182000" />
+      <workItem from="1643162997668" duration="3160000" />
+      <workItem from="1643348573305" duration="1214000" />
+      <workItem from="1644200534084" duration="608000" />
+      <workItem from="1644214137285" duration="873000" />
+      <workItem from="1644981977650" duration="641000" />
+      <workItem from="1645433435079" duration="839000" />
+      <workItem from="1645493930095" duration="1520000" />
+      <workItem from="1645598072012" duration="7556000" />
+      <workItem from="1645671940596" duration="1780000" />
+      <workItem from="1645683429197" duration="11330000" />
+      <workItem from="1645757584235" duration="5206000" />
+      <workItem from="1646032000204" duration="480000" />
+      <workItem from="1646033532142" duration="660000" />
+      <workItem from="1646208559092" duration="3022000" />
+      <workItem from="1646213089370" duration="673000" />
+      <workItem from="1646285916681" duration="1923000" />
+      <workItem from="1646371940175" duration="2499000" />
+      <workItem from="1646377375189" duration="841000" />
+      <workItem from="1646619338843" duration="8395000" />
+      <workItem from="1646723858071" duration="2632000" />
+      <workItem from="1646790293750" duration="4830000" />
+      <workItem from="1646884693083" duration="9962000" />
+      <workItem from="1646962901529" duration="2045000" />
+      <workItem from="1647241664446" duration="1376000" />
+      <workItem from="1647595401588" duration="1352000" />
+      <workItem from="1647832705763" duration="3718000" />
+      <workItem from="1647916133594" duration="1112000" />
+      <workItem from="1647922160506" duration="4000" />
+      <workItem from="1647938717423" duration="22000" />
+      <workItem from="1647999971294" duration="1522000" />
+      <workItem from="1648103645406" duration="2603000" />
+      <workItem from="1648720178726" duration="864000" />
+      <workItem from="1648806142304" duration="18000" />
+      <workItem from="1649321808661" duration="1138000" />
+      <workItem from="1649388338269" duration="6000" />
+      <workItem from="1649390036599" duration="59000" />
+      <workItem from="1649642444175" duration="66000" />
+      <workItem from="1649831957235" duration="2896000" />
+      <workItem from="1649839579573" duration="1985000" />
+      <workItem from="1650012544705" duration="154000" />
+      <workItem from="1650858988356" duration="1812000" />
+      <workItem from="1651026312639" duration="5501000" />
+      <workItem from="1651112552990" duration="1637000" />
+      <workItem from="1651123977074" duration="3192000" />
+      <workItem from="1651719874312" duration="607000" />
+      <workItem from="1651892141630" duration="2002000" />
+      <workItem from="1651903007372" duration="1222000" />
+      <workItem from="1652169191552" duration="1897000" />
+      <workItem from="1652236204657" duration="28000" />
+      <workItem from="1652262633568" duration="249000" />
+      <workItem from="1652319905910" duration="1453000" />
+      <workItem from="1652843137708" duration="2028000" />
+      <workItem from="1652853764614" duration="951000" />
+      <workItem from="1652930739753" duration="1012000" />
+      <workItem from="1653536345137" duration="713000" />
+      <workItem from="1653900942519" duration="19000" />
+      <workItem from="1655265489838" duration="2644000" />
+      <workItem from="1655433131080" duration="642000" />
+      <workItem from="1656399336889" duration="11000" />
+      <workItem from="1656400902948" duration="763000" />
+      <workItem from="1656582874288" duration="605000" />
+      <workItem from="1656640521094" duration="1413000" />
+      <workItem from="1656924015332" duration="180000" />
+      <workItem from="1657089661513" duration="12000" />
+      <workItem from="1657526369294" duration="3879000" />
+      <workItem from="1657592272180" duration="1153000" />
+      <workItem from="1657594117702" duration="1324000" />
+      <workItem from="1657605942839" duration="776000" />
+      <workItem from="1657607895296" duration="635000" />
+      <workItem from="1659922199382" duration="1156000" />
+      <workItem from="1660098091462" duration="2266000" />
+      <workItem from="1660111218603" duration="700000" />
+      <workItem from="1660124404135" duration="1017000" />
+      <workItem from="1660790068649" duration="150000" />
+      <workItem from="1661329210419" duration="236000" />
+      <workItem from="1661485087047" duration="1507000" />
+      <workItem from="1661491932053" duration="16000" />
+      <workItem from="1661564844859" duration="5706000" />
+      <workItem from="1661740692899" duration="624000" />
+      <workItem from="1661760879701" duration="400000" />
+      <workItem from="1663559737789" duration="11000" />
+      <workItem from="1663575819908" duration="267000" />
+      <workItem from="1663577900084" duration="713000" />
+      <workItem from="1663660772422" duration="2020000" />
+      <workItem from="1663742318455" duration="644000" />
+      <workItem from="1663753422926" duration="667000" />
+      <workItem from="1663816749579" duration="1424000" />
+      <workItem from="1664349214221" duration="41000" />
+      <workItem from="1665562429317" duration="3493000" />
+      <workItem from="1665624884040" duration="932000" />
+      <workItem from="1665715295890" duration="152000" />
+      <workItem from="1666684661272" duration="2142000" />
+      <workItem from="1666755843791" duration="5288000" />
+      <workItem from="1666773216400" duration="33000" />
+      <workItem from="1673506751829" duration="550000" />
+      <workItem from="1673603213998" duration="40000" />
+      <workItem from="1675065717145" duration="167000" />
+      <workItem from="1675066462712" duration="700000" />
+      <workItem from="1678443617214" duration="358000" />
+      <workItem from="1678512663691" duration="38000" />
+      <workItem from="1678785590278" duration="2896000" />
+      <workItem from="1679043989377" duration="23000" />
+      <workItem from="1679364863106" duration="27000" />
+      <workItem from="1680511693868" duration="1777000" />
+      <workItem from="1681184370728" duration="810000" />
+      <workItem from="1681190873457" duration="20000" />
+      <workItem from="1683341901461" duration="35000" />
+      <workItem from="1683342240732" duration="35000" />
+      <workItem from="1685957507854" duration="47000" />
+      <workItem from="1685957896806" duration="188000" />
+      <workItem from="1685958156129" duration="42000" />
+      <workItem from="1688367951466" duration="209000" />
+      <workItem from="1688961657724" duration="470000" />
+      <workItem from="1689562298785" duration="53000" />
+      <workItem from="1689564602890" duration="234000" />
+      <workItem from="1689565880079" duration="663000" />
+      <workItem from="1689585005154" duration="744000" />
+      <workItem from="1689729595673" duration="32000" />
+      <workItem from="1692170916884" duration="812000" />
+      <workItem from="1692265776842" duration="8000" />
+      <workItem from="1693385916257" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="用例管理规划">
       <created>1592452131953</created>

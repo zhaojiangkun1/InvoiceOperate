@@ -21,7 +21,7 @@ public class AICODE {
 
     @Test(groups = {"智能获取税收编码"})
     public void aicode() throws IOException, NoSuchAlgorithmException {
-        String body = body("蛋");
+        String body = body("转运箱");
         int code = RequestInterface.requestInteface(body, num);
         Assert.assertEquals(code, 0);
     }

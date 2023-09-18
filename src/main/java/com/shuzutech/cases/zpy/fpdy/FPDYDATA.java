@@ -30,7 +30,7 @@ public class FPDYDATA {
      * @throws NoSuchAlgorithmException
      */
     private static String top = "0";//上边距
-    private static String left = "-5";//左边距
+    private static String left = "0";//左边距
 
     /**
      * 直接传打印数据
@@ -62,7 +62,7 @@ public class FPDYDATA {
 
     @Test
     public void printdata() throws IOException, NoSuchAlgorithmException {
-        String body = body("", "3200204130", "41683208", "0");
+        String body = body("", "051002100205", "02945976", "0");
         int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTPRO);
         Assert.assertEquals(code, 0);
     }
@@ -76,8 +76,8 @@ public class FPDYDATA {
 
     @Test
     public void qdprintdata() throws IOException, NoSuchAlgorithmException {
-        String body = body("", "3502212160", "00401314", "1");
-        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTQDPRO);
+        String body = body("", "033001850204", "22160071", "1");
+        int code = RequestInterface.requestInteface(body, InterfaceNum.PRINTQDDEV);
         Assert.assertEquals(code, 0);
     }
 

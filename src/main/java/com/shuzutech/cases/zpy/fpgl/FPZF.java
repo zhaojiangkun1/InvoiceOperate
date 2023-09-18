@@ -27,9 +27,9 @@ public class FPZF {
 
     @Test(groups = {"发票作废"}, description = "已开具发票作废")
     public void fpzf() throws IOException, NoSuchAlgorithmException {
-        String body = body("49955195", "",
-                "007", "1", "282.64",
-                "050000000011", "赵坤");
+        String body = body("46080417", "",
+                "007", "1", "9.71",
+                "011001800306", "赵坤");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code, 0);
     }
@@ -43,8 +43,8 @@ public class FPZF {
 
     @Test(groups = {"发票作废"}, description = "空白发票作废")
     public void fpzf1() throws IOException, NoSuchAlgorithmException {
-        String body = body1("90335182", "",
-                "007", "0", "050000000004",
+        String body = body1("46100710", BasicParameters.jsbh,
+                "004", "0", "1100192130",
                 "管理员");
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code, 0);
@@ -81,7 +81,7 @@ public class FPZF {
     public String body1(String fphm, String jsbh, String fplxdm, String zflx, String fpdm, String zfr) {
         String body = "<?xml version=\"1.0\" encoding=\"utf-8\"?><business id=\"FPZF\"><body><input><fphm>" + fphm
                 + "</fphm><jsbh>" + jsbh + "</jsbh><nsrsbh>" + nsrsbh + "</nsrsbh><fplxdm>" + fplxdm + "</fplxdm><zflx>" + zflx + "</zflx><fpdm>"
-                + fpdm + "</fpdm><zfr>" + zfr + "</zfr>"+"</input></body></business>";
+                + fpdm + "</fpdm><zfr>" + zfr + "</zfr>"+"<hjje></hjje>"+"</input></body></business>";
         return body;
     }
 

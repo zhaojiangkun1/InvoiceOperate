@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class WSCFPCX {
 
-    private String jsbh = "91320191MA1PB97F3A~~A20017260028293";
+    private String jsbh = "91320191MA1ML4CL25~~661921253676";
     private String fplxdm = "026";
     @Test(groups = {"未上传发票查询"})
     public void wscfpcx() throws IOException, NoSuchAlgorithmException {

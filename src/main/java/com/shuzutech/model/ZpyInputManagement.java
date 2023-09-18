@@ -11,7 +11,9 @@ public class ZpyInputManagement {
     public static Element taxControlEquipment(String nsrsbh) {
         Element input = new Element("input");
         Element shnsrsbh = new Element("shnsrsbh");
+//        Element jqbh = new Element("jqbh");
         input.addContent(shnsrsbh.setText(nsrsbh));
+//        input.addContent(jqbh.setText(skph));
         return input;
     }
 

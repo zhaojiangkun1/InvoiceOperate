@@ -15,7 +15,7 @@ public class DZFPCF {
      * 电子发票重发接口
      * Fv75420200518154632
      */
-    String fpqqlsh = "SZZPY20201012161416";
+    String fpqqlsh = "SZ202301300009038393";
 
     String sprsjh = "13701476279";
 

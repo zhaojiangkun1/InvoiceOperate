@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class BasicParameters {
 
-    public static InterfaceNum num = InterfaceNum.DEV;
+    public static InterfaceNum num = InterfaceNum.PRO;
     public static InterfaceNum bwt_num = InterfaceNum.BAIWANGTONGDEV;
     /**
      * 91320100339341672J
@@ -38,13 +38,15 @@ public class BasicParameters {
      * 911103020573240067~~661014071140
      *
      * 91310108775213458Q
-     *
+     *440301999999111   661826092245
+     * 530111123456001
+     * 500010205410289637
      */
-    public static String jsbh = "91350982694354558Q~~497001274018";
-    public static String nsrsbh = "91420106691866232J";
+    public static String jsbh = "530111123456001~~499111000519";
+    public static String nsrsbh = "500010205410289637";
     public static String skph = "499000152456";
 
-    public static String bwt_nsrsbh = "110101201601010097";
+    public static String bwt_nsrsbh = "500010205410289637";
     public static String bwt_kpzdbs = "661826092245";
     public static String bwt_jqbh = "661826092245";
     public static String bwt_dzfplxdm = "026";

@@ -31,12 +31,12 @@ public class FPCX {
      * @throws IOException
      * @throws NoSuchAlgorithmException
      */
-    private static String fpqqlsh = "SZZPY20210928174154";
-    private static String fplxdm = "007";
+    private static String fpqqlsh = "SZZPY20220318174231";
+    private static String fplxdm = "026";
 
     @Test(groups = {"发票查询"}, description = "机身编号为空,根据纳税人识别号查询")
     public void fpcx() throws IOException, NoSuchAlgorithmException {
-        String body = requestBody("", BasicParameters.nsrsbh, fplxdm, 1, fpqqlsh);
+        String body = requestBody(BasicParameters.jsbh, "", fplxdm, 1, fpqqlsh);
         int code = RequestInterface.requestInteface(body, BasicParameters.num);
         Assert.assertEquals(code, 0);
     }

@@ -25,7 +25,7 @@ public class FPPLCX {
         HashMap<String,String> map = new HashMap<>();
         map.put("nsrsbh", BasicParameters.nsrsbh);
         map.put("storeid", "1002448");
-        map.put("start_date","2021-08-16");
+        map.put("start_date","2022-08-16");
         map.put("end_date","2021-08-16");
         map.put("page","1");
         map.put("pagesize","100");

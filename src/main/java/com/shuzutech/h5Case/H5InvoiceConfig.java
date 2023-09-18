@@ -39,8 +39,8 @@ public class H5InvoiceConfig {
 
     @Test
     public void test12() throws UnsupportedEncodingException {
-        String ic = "UA=Chrome&shnsrsbh=110101201707010043&terminalKey=";
-        String token = "35e4724ebf2b2b029f79d9dac38789b3";
+        String ic = "&type=3&UA=Chrome&fpqqlsh=SS196054744476958720";
+        String token = "d2b1f0ee8760bb1c1b2b811161d4a333";
         System.out.println(new Encrypt().aesEncrypt(ic, token).getBytes("utf-8"));
         String ecoderResult = java.util.Base64.getEncoder().encodeToString(new Encrypt().aesEncrypt(ic, token).getBytes("utf-8"));
         System.out.println(ecoderResult);
